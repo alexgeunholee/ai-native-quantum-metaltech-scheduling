@@ -1,0 +1,50 @@
+{
+  "aer_sampling_seconds": 0.018115884999986065,
+  "algorithm": "QAOA",
+  "backend": "Qiskit Aer simulator",
+  "depth": 3,
+  "fit_seconds": 6.801787355999977,
+  "observed_unique_bitstrings": 144,
+  "optimal_shot_fraction": 0.03466796875,
+  "optimal_shots": 142,
+  "optimization": "Qiskit Statevector + SciPy COBYLA multi-start",
+  "selected_candidate": {
+    "bitstring": "01011010",
+    "energy": 0.0,
+    "frequency": 142,
+    "schedule": [
+      {
+        "end": 1,
+        "job": "Z2",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z2",
+        "machine": "F",
+        "start": 1
+      },
+      {
+        "end": 3,
+        "job": "Z1",
+        "machine": "T",
+        "start": 1
+      },
+      {
+        "end": 4,
+        "job": "Z1",
+        "machine": "F",
+        "start": 3
+      }
+    ],
+    "validation": {
+      "issues": [],
+      "makespan": 4,
+      "operations_checked": 4,
+      "valid": true
+    }
+  },
+  "shots": 4096,
+  "status": "PASS"
+}

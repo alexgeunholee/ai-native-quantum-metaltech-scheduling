@@ -1,0 +1,22 @@
+{
+  "due_dates": {
+    "Z1": 7,
+    "Z2": 5,
+    "Z3": 10
+  },
+  "horizon": 9,
+  "label": "PROPOSED_STAGE_2_NOT_OFFICIAL_INPUT",
+  "mill_outage": {
+    "end": 5,
+    "machine": "F",
+    "start": 3
+  },
+  "priority_weights": {
+    "Z1": 1,
+    "Z2": 3,
+    "Z3": 1
+  },
+  "reference_target_F": 11,
+  "source": "Demonstration manufacturing extension defined in this project",
+  "tardiness_multiplier": 2
+}

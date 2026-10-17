@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "id": "Z1",
+      "operations": [
+        {
+          "duration": 2,
+          "machine": "T"
+        },
+        {
+          "duration": 1,
+          "machine": "F"
+        }
+      ]
+    },
+    {
+      "id": "Z2",
+      "operations": [
+        {
+          "duration": 1,
+          "machine": "T"
+        },
+        {
+          "duration": 2,
+          "machine": "F"
+        }
+      ]
+    }
+  ],
+  "problem": "erp_scheduling"
+}

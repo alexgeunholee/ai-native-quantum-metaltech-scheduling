@@ -1,0 +1,5 @@
+benchmark,binary_variables,quadratic_interactions,run_status,reference_makespan,reference_business_objective,veloxq_feasible_fraction,veloxq_best_makespan,veloxq_best_business_objective,veloxq_optimum_match,veloxq_wall_seconds
+official_3jobs_H8,39,181,SUCCESS,8,8.0,0.8671875,8,8.0,True,5.091
+energy_3jobs_H9_P25,40,180,SUCCESS,9,11.4456,0.796875,9,11.4456,True,2.754
+energy_4jobs_H12_P25,88,698,SUCCESS,12,14.5808,0.3710938,12,14.5808,True,3.295
+energy_5jobs_H13_P25,128,1256,SUCCESS,13,15.7132,0.2070312,13,15.7388,False,3.03

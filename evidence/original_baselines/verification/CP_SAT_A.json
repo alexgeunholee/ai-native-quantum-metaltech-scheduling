@@ -1,0 +1,41 @@
+{
+  "objective": 4.0,
+  "objective_recomputed": {
+    "makespan": 4
+  },
+  "optimal": true,
+  "runtime_seconds": 0.006775793000031172,
+  "schedule": [
+    {
+      "end": 1,
+      "job": "Z2",
+      "machine": "T",
+      "start": 0
+    },
+    {
+      "end": 3,
+      "job": "Z2",
+      "machine": "F",
+      "start": 1
+    },
+    {
+      "end": 3,
+      "job": "Z1",
+      "machine": "T",
+      "start": 1
+    },
+    {
+      "end": 4,
+      "job": "Z1",
+      "machine": "F",
+      "start": 3
+    }
+  ],
+  "status": "OPTIMAL",
+  "validation": {
+    "issues": [],
+    "makespan": 4,
+    "operations_checked": 4,
+    "valid": true
+  }
+}

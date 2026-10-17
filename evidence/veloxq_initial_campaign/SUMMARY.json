@@ -1,0 +1,58 @@
+{
+  "model_sha256": "67733301ecbc18da83bb5151984487857b0ee96f2f70797f91121290b68d5955",
+  "results": [
+    {
+      "benchmark": "official_3jobs_H8",
+      "binary_variables": 39,
+      "quadratic_interactions": 181,
+      "reference_business_objective": 8,
+      "reference_makespan": 8,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 8,
+      "veloxq_best_makespan": 8,
+      "veloxq_feasible_fraction": 0.8671875,
+      "veloxq_optimum_match": true,
+      "veloxq_wall_seconds": 5.091
+    },
+    {
+      "benchmark": "energy_3jobs_H9_P25",
+      "binary_variables": 40,
+      "quadratic_interactions": 180,
+      "reference_business_objective": 11.4456,
+      "reference_makespan": 9,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 11.4456,
+      "veloxq_best_makespan": 9,
+      "veloxq_feasible_fraction": 0.796875,
+      "veloxq_optimum_match": true,
+      "veloxq_wall_seconds": 2.754
+    },
+    {
+      "benchmark": "energy_4jobs_H12_P25",
+      "binary_variables": 88,
+      "quadratic_interactions": 698,
+      "reference_business_objective": 14.5808,
+      "reference_makespan": 12,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 14.5808,
+      "veloxq_best_makespan": 12,
+      "veloxq_feasible_fraction": 0.3710938,
+      "veloxq_optimum_match": true,
+      "veloxq_wall_seconds": 3.295
+    },
+    {
+      "benchmark": "energy_5jobs_H13_P25",
+      "binary_variables": 128,
+      "quadratic_interactions": 1256,
+      "reference_business_objective": 15.7132,
+      "reference_makespan": 13,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 15.7388,
+      "veloxq_best_makespan": 13,
+      "veloxq_feasible_fraction": 0.2070312,
+      "veloxq_optimum_match": false,
+      "veloxq_wall_seconds": 3.03
+    }
+  ],
+  "team": "AI-Native Quantum"
+}

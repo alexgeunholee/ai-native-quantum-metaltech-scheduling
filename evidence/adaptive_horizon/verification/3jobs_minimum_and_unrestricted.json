@@ -1,0 +1,146 @@
+{
+  "minimum_makespan": {
+    "best_bound": 9.0,
+    "certified": true,
+    "metrics": {
+      "electricity_cents": 2228,
+      "electricity_usd": 22.28,
+      "makespan_hours": 9,
+      "objective": 11.4456,
+      "valid": true,
+      "weighted_tardiness": 1
+    },
+    "objective": 9.0,
+    "requested_exact_horizon": null,
+    "schedule": [
+      {
+        "end": 1,
+        "job": "Z2",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z2",
+        "machine": "F",
+        "start": 1
+      },
+      {
+        "end": 3,
+        "job": "Z1",
+        "machine": "T",
+        "start": 1
+      },
+      {
+        "end": 4,
+        "job": "Z2",
+        "machine": "S",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z3",
+        "machine": "T",
+        "start": 3
+      },
+      {
+        "end": 6,
+        "job": "Z1",
+        "machine": "F",
+        "start": 5
+      },
+      {
+        "end": 8,
+        "job": "Z3",
+        "machine": "F",
+        "start": 6
+      },
+      {
+        "end": 8,
+        "job": "Z1",
+        "machine": "S",
+        "start": 6
+      },
+      {
+        "end": 9,
+        "job": "Z3",
+        "machine": "S",
+        "start": 8
+      }
+    ],
+    "seconds": 0.0046,
+    "status": "OPTIMAL"
+  },
+  "unrestricted_weighted": {
+    "best_bound": 57228.0,
+    "certified": true,
+    "metrics": {
+      "electricity_cents": 2228,
+      "electricity_usd": 22.28,
+      "makespan_hours": 9,
+      "objective": 11.4456,
+      "valid": true,
+      "weighted_tardiness": 1
+    },
+    "objective": 11.4456,
+    "requested_exact_horizon": null,
+    "schedule": [
+      {
+        "end": 1,
+        "job": "Z2",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z2",
+        "machine": "F",
+        "start": 1
+      },
+      {
+        "end": 3,
+        "job": "Z3",
+        "machine": "T",
+        "start": 1
+      },
+      {
+        "end": 5,
+        "job": "Z1",
+        "machine": "T",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z2",
+        "machine": "S",
+        "start": 4
+      },
+      {
+        "end": 6,
+        "job": "Z1",
+        "machine": "F",
+        "start": 5
+      },
+      {
+        "end": 8,
+        "job": "Z3",
+        "machine": "F",
+        "start": 6
+      },
+      {
+        "end": 8,
+        "job": "Z1",
+        "machine": "S",
+        "start": 6
+      },
+      {
+        "end": 9,
+        "job": "Z3",
+        "machine": "S",
+        "start": 8
+      }
+    ],
+    "seconds": 0.0585,
+    "status": "OPTIMAL"
+  }
+}

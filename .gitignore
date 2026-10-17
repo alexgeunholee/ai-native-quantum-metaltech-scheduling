@@ -1,0 +1,18 @@
+# Local credentials / keys must never be committed
+.env
+.env.*
+!.env.example
+config.py
+secrets.json
+**/credentials.json
+**/*_token.txt
+*.pem
+*.key
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+# Temporary generated runs are not submission evidence until deliberately audited
+local_runs/

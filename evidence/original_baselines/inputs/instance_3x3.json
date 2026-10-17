@@ -1,0 +1,56 @@
+{
+  "jobs": [
+    {
+      "id": "Z1",
+      "operations": [
+        {
+          "duration": 2,
+          "machine": "T"
+        },
+        {
+          "duration": 1,
+          "machine": "F"
+        },
+        {
+          "duration": 2,
+          "machine": "S"
+        }
+      ]
+    },
+    {
+      "id": "Z2",
+      "operations": [
+        {
+          "duration": 1,
+          "machine": "T"
+        },
+        {
+          "duration": 2,
+          "machine": "F"
+        },
+        {
+          "duration": 1,
+          "machine": "S"
+        }
+      ]
+    },
+    {
+      "id": "Z3",
+      "operations": [
+        {
+          "duration": 2,
+          "machine": "T"
+        },
+        {
+          "duration": 2,
+          "machine": "F"
+        },
+        {
+          "duration": 1,
+          "machine": "S"
+        }
+      ]
+    }
+  ],
+  "problem": "erp_scheduling"
+}

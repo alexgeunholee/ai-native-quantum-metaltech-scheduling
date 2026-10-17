@@ -1,0 +1,19 @@
+{
+  "energy_min": 0.0,
+  "optimal_big_endian_strings": [
+    "01011010"
+  ],
+  "optimal_integer_bitstrings": [
+    90
+  ],
+  "variables": [
+    "Z1_T_0",
+    "Z1_T_1",
+    "Z1_F_2",
+    "Z1_F_3",
+    "Z2_T_0",
+    "Z2_T_1",
+    "Z2_F_1",
+    "Z2_F_2"
+  ]
+}

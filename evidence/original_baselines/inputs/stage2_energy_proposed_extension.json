@@ -1,0 +1,37 @@
+{
+  "due_dates": {
+    "Z1": 7,
+    "Z2": 5,
+    "Z3": 10
+  },
+  "energy": {
+    "assumption": "Synthetic factory power and tariff model, 1h time grid",
+    "objective_weight_per_usd": 0.02,
+    "offpeak_cents_per_kwh": 11,
+    "peak_cents_per_kwh": 27,
+    "peak_window_hours": [
+      2,
+      6
+    ],
+    "power_kw": {
+      "F": 12,
+      "S": 6,
+      "T": 8
+    }
+  },
+  "horizon": 9,
+  "label": "PROPOSED_STAGE_2_ENERGY_NOT_OFFICIAL_INPUT",
+  "mill_outage": {
+    "end": 5,
+    "machine": "F",
+    "start": 3
+  },
+  "priority_weights": {
+    "Z1": 1,
+    "Z2": 3,
+    "Z3": 1
+  },
+  "reference_target_F": 11,
+  "source": "Demonstration manufacturing extension defined in this project",
+  "tardiness_multiplier": 2
+}

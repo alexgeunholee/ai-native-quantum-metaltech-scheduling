@@ -1,0 +1,39 @@
+QUANTUM HACKATHON 2026 — FINAL RESULTS FOR CHATGPT
+Generated UTC: 2026-10-17T15:26:30.975362+00:00
+Mode: Google Colab CPU, Qiskit Aer simulator + neal classical QUBO + OR-Tools CP-SAT
+NO physical quantum processor was used. Stage 2 inputs are proposed (not official).
+=== INSTANCE A (OFFICIAL 2x2) ===
+CP-SAT exact makespan: 4.0 h (OPTIMAL)
+QUBO variables/interactions: 8/12
+QAOA on Aer status: PASS
+QAOA selected depth: 3; shots: 4096; optimal shots: 142; optimal shot fraction: 0.034668
+QAOA fit and Aer sampling times, seconds: 6.802, 0.018
+=== INSTANCE B (OFFICIAL 3x3) ===
+CP-SAT exact makespan: 8.0 h (OPTIMAL)
+QUBO variables/interactions: 39/181
+QUBO solver status: PASS; warm-start used: False; best energy: 0.0
+BQM solver seconds: 2.523
+=== STAGE 2 (PROPOSED EXTENSION) ===
+Downtime: milling [3,5); due dates: Z1=7, Z2=5, Z3=10; weights: 1,3,1
+Objective: F = makespan + 2*weighted_tardiness; CP-SAT exact optimal F: 11.0
+QUBO variables/interactions: 40/180
+QUBO solver status: PASS; warm-start used: False
+QUBO decoded result: {"makespan": 9, "tardiness_by_job": {"Z1": 1, "Z2": 0, "Z3": 0}, "weighted_tardiness": 1, "F": 11}
+BQM solver seconds: 7.702
+=== STAGE 2 ENERGY-AWARE (PROPOSED; NOT OFFICIAL) ===
+Synthetic power T/F/S = 8/12/6 kW; tariff 11c offpeak, 27c peak [2,6).
+Objective: makespan + 2*weighted_tardiness + 0.02*electricity_cost_USD
+QUBO model variables/interactions: 40/180; added variables vs Stage2: 0
+Exact CP-SAT global optimum F: 11.445600; status: OPTIMAL
+QUBO solver status: PASS; warm-start used: False
+QUBO result F: 11.4456; global optimum matched: True
+QUBO energy, recomputed: 2.445600000000013
+Energy cost USD / peak energy kWh: 22.28 / 54
+QUBO solver seconds: 4.133
+Energy-cost comparison (baseline minus energy-aware), USD: 1.28
+=== ACCEPTANCE ===
+{"A_qaoa_optimal": true, "B_qubo_optimal": true, "Stage2Energy_global_optimal": true, "Stage2_global_optimal": true, "classical_certificates": true}
+=== EVIDENCE ===
+All execution data, circuits, actual bitstrings, schedules, model coefficients, CP-SAT certificates, figures and evidence manifest are included in ZIP.
+DO NOT imply physical QPU or VeloxQ jobs were performed. Do not call neal a quantum processor.
+Human PM still needs public GitHub repository, actual 5-minute demo video URL, submission form, and live 3-minute presentation.

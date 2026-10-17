@@ -1,0 +1,18 @@
+{
+  "environment": "Google Colab",
+  "packages": {
+    "dimod": "0.12.22",
+    "dwave-neal": "0.6.0",
+    "matplotlib": "3.10.0",
+    "numpy": "2.1.3",
+    "ortools": "9.15.6755",
+    "qiskit": "2.6.0",
+    "qiskit-aer": "0.17.2",
+    "scipy": "1.16.3"
+  },
+  "physical_qpu_executed": false,
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "seed": 20261017,
+  "start_utc": "2026-10-17T15:24:53.053599+00:00"
+}

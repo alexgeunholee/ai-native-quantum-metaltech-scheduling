@@ -1,0 +1,6038 @@
+{
+  "cases": [
+    {
+      "H_min_certified": 9,
+      "adaptive_global_optimum_match": true,
+      "best_adaptive_schedule": {
+        "energy": 2.445600000000013,
+        "metrics": {
+          "electricity_cents": 2228,
+          "electricity_usd": 22.28,
+          "makespan_hours": 9,
+          "objective": 11.4456,
+          "valid": true,
+          "weighted_tardiness": 1
+        },
+        "objective": 11.4456,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 3,
+            "job": "Z1",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z3",
+            "machine": "T",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 9,
+            "job": "Z3",
+            "machine": "S",
+            "start": 8
+          }
+        ]
+      },
+      "certified_global_reference_gap": 0.0,
+      "horizons": [
+        {
+          "H": 9,
+          "best_annealer_objective": 11.4456,
+          "cp_sat_exact_horizon_optimum": 11.4456,
+          "exact_H_optimum_matches": 10,
+          "model_size": {
+            "anchor_candidates": 3,
+            "binary_variables": 40,
+            "exact_horizon": 9,
+            "jobs": 3,
+            "penalty": 25,
+            "quadratic_interactions": 180,
+            "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+          },
+          "n_trials": 10,
+          "reference_certified": true,
+          "trials": [
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445600000000013,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 112,
+              "feasible_sample_fraction": 0.7466666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 25,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 25,
+              "raw_lowest_energy": 2.445600000000013,
+              "reads": 150,
+              "runtime_s": 0.1621,
+              "seed": 101,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445600000000013,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 115,
+              "feasible_sample_fraction": 0.7666666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 25,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 25,
+              "raw_lowest_energy": 2.445600000000013,
+              "reads": 150,
+              "runtime_s": 0.1603,
+              "seed": 202,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445600000000013,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 119,
+              "feasible_sample_fraction": 0.7933333333333333,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 25,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 25,
+              "raw_lowest_energy": 2.445600000000013,
+              "reads": 150,
+              "runtime_s": 0.1604,
+              "seed": 303,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445600000000013,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 112,
+              "feasible_sample_fraction": 0.7466666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 25,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 25,
+              "raw_lowest_energy": 2.445600000000013,
+              "reads": 150,
+              "runtime_s": 0.1607,
+              "seed": 404,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445600000000013,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 109,
+              "feasible_sample_fraction": 0.7266666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 25,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 25,
+              "raw_lowest_energy": 2.445600000000013,
+              "reads": 150,
+              "runtime_s": 0.1767,
+              "seed": 505,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445599999998194,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 103,
+              "feasible_sample_fraction": 0.6866666666666666,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 100,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 100,
+              "raw_lowest_energy": 2.445599999998194,
+              "reads": 150,
+              "runtime_s": 0.1629,
+              "seed": 101,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445599999998194,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 99,
+              "feasible_sample_fraction": 0.66,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 100,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 100,
+              "raw_lowest_energy": 2.445599999998194,
+              "reads": 150,
+              "runtime_s": 0.161,
+              "seed": 202,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445599999998194,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 96,
+              "feasible_sample_fraction": 0.64,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 100,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 100,
+              "raw_lowest_energy": 2.445599999998194,
+              "reads": 150,
+              "runtime_s": 0.1616,
+              "seed": 303,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445599999998194,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 103,
+              "feasible_sample_fraction": 0.6866666666666666,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 100,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 100,
+              "raw_lowest_energy": 2.445599999998194,
+              "reads": 150,
+              "runtime_s": 0.1629,
+              "seed": 404,
+              "sweeps": 1000
+            },
+            {
+              "H": 9,
+              "best": {
+                "energy": 2.445599999998194,
+                "metrics": {
+                  "electricity_cents": 2228,
+                  "electricity_usd": 22.28,
+                  "makespan_hours": 9,
+                  "objective": 11.4456,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 11.4456,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  }
+                ]
+              },
+              "feasible_reads": 90,
+              "feasible_sample_fraction": 0.6,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 3,
+                "binary_variables": 40,
+                "exact_horizon": 9,
+                "jobs": 3,
+                "penalty": 100,
+                "quadratic_interactions": 180,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 3,
+              "penalty": 100,
+              "raw_lowest_energy": 2.445599999998194,
+              "reads": 150,
+              "runtime_s": 0.2709,
+              "seed": 505,
+              "sweeps": 1000
+            }
+          ],
+          "unrestricted_global_matches": 10
+        }
+      ],
+      "jobs": 3,
+      "unrestricted_optimum": 11.4456,
+      "unrestricted_optimum_H": 9
+    },
+    {
+      "H_min_certified": 11,
+      "adaptive_global_optimum_match": true,
+      "best_adaptive_schedule": {
+        "energy": 2.580799999998817,
+        "metrics": {
+          "electricity_cents": 2904,
+          "electricity_usd": 29.04,
+          "makespan_hours": 12,
+          "objective": 14.5808,
+          "valid": true,
+          "weighted_tardiness": 1
+        },
+        "objective": 14.5808,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 3,
+            "job": "Z3",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z2",
+            "machine": "S",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 7,
+            "job": "Z4",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 9,
+            "job": "Z3",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 12,
+            "job": "Z4",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "certified_global_reference_gap": 0.0,
+      "horizons": [
+        {
+          "H": 11,
+          "best_annealer_objective": 15.536,
+          "cp_sat_exact_horizon_optimum": 15.536,
+          "exact_H_optimum_matches": 10,
+          "model_size": {
+            "anchor_candidates": 4,
+            "binary_variables": 76,
+            "exact_horizon": 11,
+            "jobs": 4,
+            "penalty": 25,
+            "quadratic_interactions": 536,
+            "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+          },
+          "n_trials": 10,
+          "reference_certified": true,
+          "trials": [
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.536000000000058,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 62,
+              "feasible_sample_fraction": 0.31,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 4.536000000000058,
+              "reads": 200,
+              "runtime_s": 1.9937,
+              "seed": 101,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.536000000000058,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 60,
+              "feasible_sample_fraction": 0.3,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 4.536000000000058,
+              "reads": 200,
+              "runtime_s": 1.0032,
+              "seed": 202,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.536000000000058,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 55,
+              "feasible_sample_fraction": 0.275,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 4.536000000000058,
+              "reads": 200,
+              "runtime_s": 1.041,
+              "seed": 303,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.536000000000058,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 65,
+              "feasible_sample_fraction": 0.325,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 4.536000000000058,
+              "reads": 200,
+              "runtime_s": 0.6626,
+              "seed": 404,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.536000000000058,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 60,
+              "feasible_sample_fraction": 0.3,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 4.536000000000058,
+              "reads": 200,
+              "runtime_s": 0.552,
+              "seed": 505,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.53599999999642,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 101,
+              "feasible_sample_fraction": 0.505,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 4.53599999999642,
+              "reads": 200,
+              "runtime_s": 0.561,
+              "seed": 101,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.53599999999642,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 97,
+              "feasible_sample_fraction": 0.485,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 4.53599999999642,
+              "reads": 200,
+              "runtime_s": 0.5645,
+              "seed": 202,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.53599999999642,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 89,
+              "feasible_sample_fraction": 0.445,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 4.53599999999642,
+              "reads": 200,
+              "runtime_s": 0.5506,
+              "seed": 303,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.53599999999642,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 99,
+              "feasible_sample_fraction": 0.495,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 4.53599999999642,
+              "reads": 200,
+              "runtime_s": 0.5619,
+              "seed": 404,
+              "sweeps": 1200
+            },
+            {
+              "H": 11,
+              "best": {
+                "energy": 4.53599999999642,
+                "metrics": {
+                  "electricity_cents": 2680,
+                  "electricity_usd": 26.8,
+                  "makespan_hours": 11,
+                  "objective": 15.536,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 15.536,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 103,
+              "feasible_sample_fraction": 0.515,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 76,
+                "exact_horizon": 11,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 536,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 4.53599999999642,
+              "reads": 200,
+              "runtime_s": 0.5497,
+              "seed": 505,
+              "sweeps": 1200
+            }
+          ],
+          "unrestricted_global_matches": 0
+        },
+        {
+          "H": 12,
+          "best_annealer_objective": 14.5808,
+          "cp_sat_exact_horizon_optimum": 14.5808,
+          "exact_H_optimum_matches": 10,
+          "model_size": {
+            "anchor_candidates": 4,
+            "binary_variables": 88,
+            "exact_horizon": 12,
+            "jobs": 4,
+            "penalty": 25,
+            "quadratic_interactions": 698,
+            "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+          },
+          "n_trials": 10,
+          "reference_certified": true,
+          "trials": [
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.580799999998817,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 138,
+              "feasible_sample_fraction": 0.69,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 2.580799999998817,
+              "reads": 200,
+              "runtime_s": 0.6538,
+              "seed": 101,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.580799999998817,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 123,
+              "feasible_sample_fraction": 0.615,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 2.580799999998817,
+              "reads": 200,
+              "runtime_s": 0.6667,
+              "seed": 202,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.580799999998817,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 126,
+              "feasible_sample_fraction": 0.63,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 2.580799999998817,
+              "reads": 200,
+              "runtime_s": 0.6691,
+              "seed": 303,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.580799999998817,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 129,
+              "feasible_sample_fraction": 0.645,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 2.580799999998817,
+              "reads": 200,
+              "runtime_s": 0.6577,
+              "seed": 404,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.580799999998817,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 116,
+              "feasible_sample_fraction": 0.58,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 25,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 25,
+              "raw_lowest_energy": 2.580799999998817,
+              "reads": 200,
+              "runtime_s": 0.6752,
+              "seed": 505,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.5807999999997264,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 157,
+              "feasible_sample_fraction": 0.785,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 2.5807999999997264,
+              "reads": 200,
+              "runtime_s": 0.6691,
+              "seed": 101,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.5807999999997264,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 161,
+              "feasible_sample_fraction": 0.805,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 2.5807999999997264,
+              "reads": 200,
+              "runtime_s": 0.659,
+              "seed": 202,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.5807999999997264,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 168,
+              "feasible_sample_fraction": 0.84,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 2.5807999999997264,
+              "reads": 200,
+              "runtime_s": 0.9291,
+              "seed": 303,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.5807999999997264,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 164,
+              "feasible_sample_fraction": 0.82,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 2.5807999999997264,
+              "reads": 200,
+              "runtime_s": 1.0661,
+              "seed": 404,
+              "sweeps": 1200
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 2.5807999999997264,
+                "metrics": {
+                  "electricity_cents": 2904,
+                  "electricity_usd": 29.04,
+                  "makespan_hours": 12,
+                  "objective": 14.5808,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 14.5808,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  }
+                ]
+              },
+              "feasible_reads": 157,
+              "feasible_sample_fraction": 0.785,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 4,
+                "binary_variables": 88,
+                "exact_horizon": 12,
+                "jobs": 4,
+                "penalty": 100,
+                "quadratic_interactions": 698,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 4,
+              "penalty": 100,
+              "raw_lowest_energy": 2.5807999999997264,
+              "reads": 200,
+              "runtime_s": 1.0065,
+              "seed": 505,
+              "sweeps": 1200
+            }
+          ],
+          "unrestricted_global_matches": 10
+        }
+      ],
+      "jobs": 4,
+      "unrestricted_optimum": 14.5808,
+      "unrestricted_optimum_H": 12
+    },
+    {
+      "H_min_certified": 12,
+      "adaptive_global_optimum_match": true,
+      "best_adaptive_schedule": {
+        "energy": 2.7132000000074186,
+        "metrics": {
+          "electricity_cents": 3566,
+          "electricity_usd": 35.66,
+          "makespan_hours": 13,
+          "objective": 15.7132,
+          "valid": true,
+          "weighted_tardiness": 1
+        },
+        "objective": 15.7132,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 3,
+            "job": "Z3",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z2",
+            "machine": "S",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "T",
+            "start": 7
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 9,
+            "job": "Z3",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z5",
+            "machine": "T",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z5",
+            "machine": "F",
+            "start": 10
+          },
+          {
+            "end": 12,
+            "job": "Z4",
+            "machine": "S",
+            "start": 10
+          },
+          {
+            "end": 13,
+            "job": "Z5",
+            "machine": "S",
+            "start": 12
+          }
+        ]
+      },
+      "certified_global_reference_gap": 0.0,
+      "horizons": [
+        {
+          "H": 12,
+          "best_annealer_objective": 16.6684,
+          "cp_sat_exact_horizon_optimum": 16.6684,
+          "exact_H_optimum_matches": 9,
+          "model_size": {
+            "anchor_candidates": 5,
+            "binary_variables": 113,
+            "exact_horizon": 12,
+            "jobs": 5,
+            "penalty": 25,
+            "quadratic_interactions": 1010,
+            "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+          },
+          "n_trials": 10,
+          "reference_certified": true,
+          "trials": [
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.668400000003203,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 71,
+              "feasible_sample_fraction": 0.29583333333333334,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 4.668400000003203,
+              "reads": 240,
+              "runtime_s": 1.3091,
+              "seed": 101,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.668400000003203,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 64,
+              "feasible_sample_fraction": 0.26666666666666666,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 4.668400000003203,
+              "reads": 240,
+              "runtime_s": 1.3391,
+              "seed": 202,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.668400000003203,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 61,
+              "feasible_sample_fraction": 0.25416666666666665,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 4.668400000003203,
+              "reads": 240,
+              "runtime_s": 1.3111,
+              "seed": 303,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.668400000003203,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 60,
+              "feasible_sample_fraction": 0.25,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 4.668400000003203,
+              "reads": 240,
+              "runtime_s": 1.3244,
+              "seed": 404,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.668400000003203,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 57,
+              "feasible_sample_fraction": 0.2375,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 4.668400000003203,
+              "reads": 240,
+              "runtime_s": 1.368,
+              "seed": 505,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.6683999999877415,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 2,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 2
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 94,
+              "feasible_sample_fraction": 0.39166666666666666,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 4.6683999999877415,
+              "reads": 240,
+              "runtime_s": 1.3408,
+              "seed": 101,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.693999999981315,
+                "metrics": {
+                  "electricity_cents": 3470,
+                  "electricity_usd": 34.7,
+                  "makespan_hours": 12,
+                  "objective": 16.694,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.694,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 86,
+              "feasible_sample_fraction": 0.35833333333333334,
+              "matches_certified_exact_H_optimum": false,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 4.693999999981315,
+              "reads": 240,
+              "runtime_s": 1.644,
+              "seed": 202,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.6683999999877415,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 97,
+              "feasible_sample_fraction": 0.4041666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 4.6683999999877415,
+              "reads": 240,
+              "runtime_s": 2.0804,
+              "seed": 303,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.6683999999877415,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 94,
+              "feasible_sample_fraction": 0.39166666666666666,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 4.6683999999877415,
+              "reads": 240,
+              "runtime_s": 1.3275,
+              "seed": 404,
+              "sweeps": 1500
+            },
+            {
+              "H": 12,
+              "best": {
+                "energy": 4.6683999999877415,
+                "metrics": {
+                  "electricity_cents": 3342,
+                  "electricity_usd": 33.42,
+                  "makespan_hours": 12,
+                  "objective": 16.6684,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 16.6684,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 11
+                  }
+                ]
+              },
+              "feasible_reads": 86,
+              "feasible_sample_fraction": 0.35833333333333334,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 113,
+                "exact_horizon": 12,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1010,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 4.6683999999877415,
+              "reads": 240,
+              "runtime_s": 1.3241,
+              "seed": 505,
+              "sweeps": 1500
+            }
+          ],
+          "unrestricted_global_matches": 0
+        },
+        {
+          "H": 13,
+          "best_annealer_objective": 15.7132,
+          "cp_sat_exact_horizon_optimum": 15.7132,
+          "exact_H_optimum_matches": 5,
+          "model_size": {
+            "anchor_candidates": 5,
+            "binary_variables": 128,
+            "exact_horizon": 13,
+            "jobs": 5,
+            "penalty": 25,
+            "quadratic_interactions": 1256,
+            "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+          },
+          "n_trials": 10,
+          "reference_certified": true,
+          "trials": [
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7132000000074186,
+                "metrics": {
+                  "electricity_cents": 3566,
+                  "electricity_usd": 35.66,
+                  "makespan_hours": 13,
+                  "objective": 15.7132,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7132,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 127,
+              "feasible_sample_fraction": 0.5291666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 2.7132000000074186,
+              "reads": 240,
+              "runtime_s": 1.67,
+              "seed": 101,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7132000000092376,
+                "metrics": {
+                  "electricity_cents": 3566,
+                  "electricity_usd": 35.66,
+                  "makespan_hours": 13,
+                  "objective": 15.7132,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7132,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 11
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 151,
+              "feasible_sample_fraction": 0.6291666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 2.7132000000092376,
+              "reads": 240,
+              "runtime_s": 1.4965,
+              "seed": 202,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7132000000074186,
+                "metrics": {
+                  "electricity_cents": 3566,
+                  "electricity_usd": 35.66,
+                  "makespan_hours": 13,
+                  "objective": 15.7132,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7132,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 131,
+              "feasible_sample_fraction": 0.5458333333333333,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 2.7132000000074186,
+              "reads": 240,
+              "runtime_s": 1.5314,
+              "seed": 303,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7132000000092376,
+                "metrics": {
+                  "electricity_cents": 3566,
+                  "electricity_usd": 35.66,
+                  "makespan_hours": 13,
+                  "objective": 15.7132,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7132,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 124,
+              "feasible_sample_fraction": 0.5166666666666667,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 2.7132000000092376,
+              "reads": 240,
+              "runtime_s": 1.4978,
+              "seed": 404,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7388000000082684,
+                "metrics": {
+                  "electricity_cents": 3694,
+                  "electricity_usd": 36.94,
+                  "makespan_hours": 13,
+                  "objective": 15.7388,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7388,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 138,
+              "feasible_sample_fraction": 0.575,
+              "matches_certified_exact_H_optimum": false,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 25,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 25,
+              "raw_lowest_energy": 2.7388000000082684,
+              "reads": 240,
+              "runtime_s": 2.3777,
+              "seed": 505,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7388000000137254,
+                "metrics": {
+                  "electricity_cents": 3694,
+                  "electricity_usd": 36.94,
+                  "makespan_hours": 13,
+                  "objective": 15.7388,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7388,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 11
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 169,
+              "feasible_sample_fraction": 0.7041666666666667,
+              "matches_certified_exact_H_optimum": false,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 2.7388000000137254,
+              "reads": 240,
+              "runtime_s": 1.7242,
+              "seed": 101,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7387999999991735,
+                "metrics": {
+                  "electricity_cents": 3694,
+                  "electricity_usd": 36.94,
+                  "makespan_hours": 13,
+                  "objective": 15.7388,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7388,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 11
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 171,
+              "feasible_sample_fraction": 0.7125,
+              "matches_certified_exact_H_optimum": false,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 2.7387999999991735,
+              "reads": 240,
+              "runtime_s": 1.5184,
+              "seed": 202,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 4.694000000010419,
+                "metrics": {
+                  "electricity_cents": 3470,
+                  "electricity_usd": 34.7,
+                  "makespan_hours": 13,
+                  "objective": 17.694,
+                  "valid": true,
+                  "weighted_tardiness": 2
+                },
+                "objective": 17.694,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 9
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 11
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 181,
+              "feasible_sample_fraction": 0.7541666666666667,
+              "matches_certified_exact_H_optimum": false,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 4.694000000010419,
+              "reads": 240,
+              "runtime_s": 1.5193,
+              "seed": 303,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7132000000201515,
+                "metrics": {
+                  "electricity_cents": 3566,
+                  "electricity_usd": 35.66,
+                  "makespan_hours": 13,
+                  "objective": 15.7132,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7132,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 4
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 7,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 6
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 7
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 9,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 8
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 176,
+              "feasible_sample_fraction": 0.7333333333333333,
+              "matches_certified_exact_H_optimum": true,
+              "matches_unrestricted_global_optimum": true,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 2.7132000000201515,
+              "reads": 240,
+              "runtime_s": 1.5225,
+              "seed": 404,
+              "sweeps": 1500
+            },
+            {
+              "H": 13,
+              "best": {
+                "energy": 2.7644000000072992,
+                "metrics": {
+                  "electricity_cents": 3822,
+                  "electricity_usd": 38.22,
+                  "makespan_hours": 13,
+                  "objective": 15.7644,
+                  "valid": true,
+                  "weighted_tardiness": 1
+                },
+                "objective": 15.7644,
+                "schedule": [
+                  {
+                    "end": 1,
+                    "job": "Z2",
+                    "machine": "T",
+                    "start": 0
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z2",
+                    "machine": "F",
+                    "start": 1
+                  },
+                  {
+                    "end": 3,
+                    "job": "Z3",
+                    "machine": "T",
+                    "start": 1
+                  },
+                  {
+                    "end": 4,
+                    "job": "Z2",
+                    "machine": "S",
+                    "start": 3
+                  },
+                  {
+                    "end": 5,
+                    "job": "Z1",
+                    "machine": "T",
+                    "start": 3
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z1",
+                    "machine": "F",
+                    "start": 5
+                  },
+                  {
+                    "end": 6,
+                    "job": "Z4",
+                    "machine": "T",
+                    "start": 5
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z3",
+                    "machine": "F",
+                    "start": 6
+                  },
+                  {
+                    "end": 8,
+                    "job": "Z1",
+                    "machine": "S",
+                    "start": 6
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z4",
+                    "machine": "F",
+                    "start": 8
+                  },
+                  {
+                    "end": 10,
+                    "job": "Z3",
+                    "machine": "S",
+                    "start": 9
+                  },
+                  {
+                    "end": 11,
+                    "job": "Z5",
+                    "machine": "T",
+                    "start": 9
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z4",
+                    "machine": "S",
+                    "start": 10
+                  },
+                  {
+                    "end": 12,
+                    "job": "Z5",
+                    "machine": "F",
+                    "start": 11
+                  },
+                  {
+                    "end": 13,
+                    "job": "Z5",
+                    "machine": "S",
+                    "start": 12
+                  }
+                ]
+              },
+              "feasible_reads": 173,
+              "feasible_sample_fraction": 0.7208333333333333,
+              "matches_certified_exact_H_optimum": false,
+              "matches_unrestricted_global_optimum": false,
+              "model": {
+                "anchor_candidates": 5,
+                "binary_variables": 128,
+                "exact_horizon": 13,
+                "jobs": 5,
+                "penalty": 100,
+                "quadratic_interactions": 1256,
+                "qubo_energy_relation": "E(x)=F(x)-H for valid exact-H schedules"
+              },
+              "n_jobs": 5,
+              "penalty": 100,
+              "raw_lowest_energy": 2.7644000000072992,
+              "reads": 240,
+              "runtime_s": 1.5221,
+              "seed": 505,
+              "sweeps": 1500
+            }
+          ],
+          "unrestricted_global_matches": 5
+        }
+      ],
+      "jobs": 5,
+      "unrestricted_optimum": 15.7132,
+      "unrestricted_optimum_H": 13
+    }
+  ],
+  "cp_reference": "independent OR-Tools CP-SAT",
+  "errors": [],
+  "experiment": "EXP4_ADAPTIVE_EXACT_MAKESPAN_QUBO",
+  "physical_qpu": false,
+  "runtime_environment": {
+    "packages": {
+      "dimod": "0.12.22",
+      "dwave-neal": "0.6.0",
+      "matplotlib": "3.10.0",
+      "numpy": "2.1.3",
+      "ortools": "9.15.6755"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "solver_type": "CLASSICAL simulated annealing on a quantum-compatible QUBO",
+  "start_time_utc": "2026-10-17T16:19:24.873224+00:00"
+}

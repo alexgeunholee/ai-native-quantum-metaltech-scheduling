@@ -1,0 +1,55 @@
+{
+  "due_hours": {
+    "Z1": 7,
+    "Z2": 5,
+    "Z3": 10,
+    "Z4": 12,
+    "Z5": 14
+  },
+  "outage": [
+    "F",
+    3,
+    5
+  ],
+  "power_kw": {
+    "F": 12,
+    "S": 6,
+    "T": 8
+  },
+  "priority_weights": {
+    "Z1": 1,
+    "Z2": 3,
+    "Z3": 1,
+    "Z4": 2,
+    "Z5": 1
+  },
+  "processing_hours": {
+    "Z1": [
+      2,
+      1,
+      2
+    ],
+    "Z2": [
+      1,
+      2,
+      1
+    ],
+    "Z3": [
+      2,
+      2,
+      1
+    ],
+    "Z4": [
+      1,
+      2,
+      2
+    ],
+    "Z5": [
+      2,
+      1,
+      1
+    ]
+  },
+  "synthetic_note": "Only Z1-Z3 processing times are from the official baseline. Z4-Z5 and all industrial extensions are synthetic.",
+  "tariff": "11 cents/kWh outside hours modulo 8 [2,6); 27 cents/kWh inside"
+}

@@ -1,0 +1,217 @@
+{
+  "best": {
+    "energy": 0.0,
+    "objective": {
+      "makespan": 8
+    },
+    "occurrences": 1,
+    "schedule": [
+      {
+        "end": 2,
+        "job": "Z1",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z1",
+        "machine": "F",
+        "start": 2
+      },
+      {
+        "end": 3,
+        "job": "Z2",
+        "machine": "T",
+        "start": 2
+      },
+      {
+        "end": 5,
+        "job": "Z2",
+        "machine": "F",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z1",
+        "machine": "S",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z3",
+        "machine": "T",
+        "start": 3
+      },
+      {
+        "end": 7,
+        "job": "Z3",
+        "machine": "F",
+        "start": 5
+      },
+      {
+        "end": 7,
+        "job": "Z2",
+        "machine": "S",
+        "start": 6
+      },
+      {
+        "end": 8,
+        "job": "Z3",
+        "machine": "S",
+        "start": 7
+      }
+    ],
+    "source": "unseeded_neal",
+    "validation": {
+      "issues": [],
+      "makespan": 8,
+      "operations_checked": 9,
+      "valid": true
+    }
+  },
+  "feasible_sample_rows": 948,
+  "initial_reads": 1000,
+  "samples_examined": 1000,
+  "solver": "neal.SimulatedAnnealingSampler (classical QUBO)",
+  "status": "PASS",
+  "sweeps": 1800,
+  "top_samples": [
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    },
+    {
+      "energy": 0.0,
+      "objective": {
+        "makespan": 8
+      },
+      "occurrences": 1,
+      "source": "unseeded_neal",
+      "valid": true
+    }
+  ],
+  "wall_seconds": 2.523242275999962,
+  "warmstart_used": false
+}

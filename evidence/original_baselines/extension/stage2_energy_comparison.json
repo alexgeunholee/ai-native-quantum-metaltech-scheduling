@@ -1,0 +1,47 @@
+{
+  "baseline_downtime_deadline_sampler_on_energy_tariff": {
+    "F": 11.4712,
+    "electricity_cost_cents": 2356,
+    "electricity_cost_usd": 23.56,
+    "energy_objective_contribution": 0.47119999999999995,
+    "makespan": 9,
+    "peak_energy_kwh": 62,
+    "tardiness_by_job": {
+      "Z1": 1,
+      "Z2": 0,
+      "Z3": 0
+    },
+    "weighted_tardiness": 1
+  },
+  "energy_aware_sampler": {
+    "F": 11.4456,
+    "electricity_cost_cents": 2228,
+    "electricity_cost_usd": 22.28,
+    "energy_objective_contribution": 0.4456,
+    "makespan": 9,
+    "peak_energy_kwh": 54,
+    "tardiness_by_job": {
+      "Z1": 1,
+      "Z2": 0,
+      "Z3": 0
+    },
+    "weighted_tardiness": 1
+  },
+  "energy_cost_delta_usd_baseline_minus_energy": 1.28,
+  "interpretation": "Difference is an empirical result, not a promised saving or quantum advantage.",
+  "same_synthetic_tariff": {
+    "assumption": "Synthetic factory power and tariff model, 1h time grid",
+    "objective_weight_per_usd": 0.02,
+    "offpeak_cents_per_kwh": 11,
+    "peak_cents_per_kwh": 27,
+    "peak_window_hours": [
+      2,
+      6
+    ],
+    "power_kw": {
+      "F": 12,
+      "S": 6,
+      "T": 8
+    }
+  }
+}

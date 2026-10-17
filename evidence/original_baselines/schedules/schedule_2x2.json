@@ -1,0 +1,31 @@
+{
+  "instance": "instance_2x2",
+  "makespan": 4,
+  "method": "QAOA (Qiskit Aer state-vector simulator)",
+  "schedule": [
+    {
+      "end": 1,
+      "job": "Z2",
+      "machine": "T",
+      "start": 0
+    },
+    {
+      "end": 3,
+      "job": "Z2",
+      "machine": "F",
+      "start": 1
+    },
+    {
+      "end": 3,
+      "job": "Z1",
+      "machine": "T",
+      "start": 1
+    },
+    {
+      "end": 4,
+      "job": "Z1",
+      "machine": "F",
+      "start": 3
+    }
+  ]
+}

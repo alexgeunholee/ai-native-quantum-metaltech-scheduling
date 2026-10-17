@@ -1,0 +1,36 @@
+ERP HACKATHON — EXPERIMENT 3 RESULTS
+Generated UTC: 2026-10-17T16:08:23.159256+00:00
+Solvers: neal CLASSICAL simulated annealing; OR-Tools CP-SAT; optional 8-qubit QAOA on Qiskit Aer.
+NO physical QPU, quantum advantage, or VeloxQ run.
+Z4/Z5 jobs and all outages/deadlines/tariffs are SYNTHETIC.
+IMPORTANT: QUBO uses certified minimum-makespan H when available; comparisons are FIXED-HORIZON,
+not automatically the unrestricted globally optimal weighted objective. No CP-SAT warm starts used.
+
+JOBS 3; H=9; model={'variables': 40, 'quadratic_interactions': 180}
+Makespan certificate=True; Fixed-H CP-SAT reference=11.4456 proven=True
+Unrestricted weighted CP-SAT reference=11.4456 proven=True
+  penalty 5: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 65.17%; best F=11.4456
+  penalty 25: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 82.83%; best F=11.4456
+  penalty 100: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 73.83%; best F=11.4456
+
+JOBS 4; H=11; model={'variables': 76, 'quadratic_interactions': 536}
+Makespan certificate=True; Fixed-H CP-SAT reference=15.536 proven=True
+Unrestricted weighted CP-SAT reference=14.5808 proven=True
+  penalty 5: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 16.40%; best F=15.536
+  penalty 25: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 39.07%; best F=15.536
+  penalty 100: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 60.53%; best F=15.536
+
+JOBS 5; H=12; model={'variables': 113, 'quadratic_interactions': 1010}
+Makespan certificate=True; Fixed-H CP-SAT reference=16.6684 proven=True
+Unrestricted weighted CP-SAT reference=15.7132 proven=True
+  penalty 5: feasible seeds 5/5, certified-optimum matches 2/5 (only if references certified); mean feasible shots 5.06%; best F=16.6684
+  penalty 25: feasible seeds 5/5, certified-optimum matches 5/5 (only if references certified); mean feasible shots 29.18%; best F=16.6684
+  penalty 100: feasible seeds 5/5, certified-optimum matches 3/5 (only if references certified); mean feasible shots 49.29%; best F=16.6684
+
+8-QUBIT QAOA DEPTH TEST (actual Qiskit Aer shots)
+  p=1: success fractions [0.00391, 0.03613]; COBYLA success flags [True, True]
+  p=2: success fractions [0.00586, 0.03125]; COBYLA success flags [True, False]
+  p=3: success fractions [0.06299, 0.08447]; COBYLA success flags [False, False]
+
+ERRORS: None
+Next step: share this file with the Agentic AI PC before making performance claims.

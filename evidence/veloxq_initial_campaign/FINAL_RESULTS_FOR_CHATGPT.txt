@@ -1,0 +1,40 @@
+TEAM AI-NATIVE QUANTUM — VELOXQ MANUFACTURING BENCHMARK
+Date UTC: 20261017T184136Z
+Archived coefficient-model SHA-256: 67733301ecbc18da83bb5151984487857b0ee96f2f70797f91121290b68d5955
+VeloxQ backend: quantum-inspired GPU solver; not a physical quantum QPU
+External industrial extension and scaling data are synthetic
+Only status=SUCCESS means an actual VeloxQ result was returned
+Solver parameters: num_rep=256 num_steps=1500
+
+official_3jobs_H8: SUCCESS
+  QUBO variables: 39; interactions: 181; offset: 45.0
+  Prior independent reference: {"target_energy": 0.0, "target_makespan": 8, "type": "zero-penalty feasibility"}
+  VeloxQ outcome: MATCH
+  Feasible samples (weighted): 222 / 256
+  VeloxQ best business objective: 8
+  Remote wall time (seconds): 5.091
+
+energy_3jobs_H9_P25: SUCCESS
+  QUBO variables: 40; interactions: 180; offset: 250.0
+  Prior independent reference: {"target_makespan": 9, "target_objective": 11.4456, "type": "CP-SAT OPTIMAL"}
+  VeloxQ outcome: MATCH
+  Feasible samples (weighted): 204 / 256
+  VeloxQ best business objective: 11.4456
+  Remote wall time (seconds): 2.754
+
+energy_4jobs_H12_P25: SUCCESS
+  QUBO variables: 88; interactions: 698; offset: 325.0
+  Prior independent reference: {"target_makespan": 12, "target_objective": 14.5808, "type": "CP-SAT OPTIMAL"}
+  VeloxQ outcome: MATCH
+  Feasible samples (weighted): 95 / 256
+  VeloxQ best business objective: 14.5808
+  Remote wall time (seconds): 3.295
+
+energy_5jobs_H13_P25: SUCCESS
+  QUBO variables: 128; interactions: 1256; offset: 400.0
+  Prior independent reference: {"target_makespan": 13, "target_objective": 15.7132, "type": "CP-SAT OPTIMAL"}
+  VeloxQ outcome: NOT_MATCHED
+  Feasible samples (weighted): 53 / 256
+  VeloxQ best business objective: 15.7388
+  Remote wall time (seconds): 3.03
+

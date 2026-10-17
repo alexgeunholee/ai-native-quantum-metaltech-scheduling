@@ -1,0 +1,5 @@
+{
+  "target_energy": 0.0,
+  "target_makespan": 8,
+  "type": "zero-penalty feasibility"
+}

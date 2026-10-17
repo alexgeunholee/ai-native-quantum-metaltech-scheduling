@@ -1,0 +1,23 @@
+ERP QUANTUM HACKATHON — EXPERIMENT 4 ADAPTIVE HORIZON
+Actual executed solver: classical neal simulated annealing on QUBO; CP-SAT exact references.
+No physical QPU, VeloxQ, or new Qiskit Aer circuit runs.
+H = exact, constrained makespan, not simply upper bound.
+All outages, prices and due dates synthetic; 4-5 job expansions synthetic.
+Objective F = Cmax + 2*weighted tardiness + 0.02*electricity USD.
+Timestamp UTC: 2026-10-17T16:20:18.914796+00:00
+
+JOBS=3 CP-SAT minimum H=9 global weighted optimum=11.4456 (H=9)
+  exact H=9: variables=40, couplers=180, CP-SAT OPT=11.4456; QUBO best=11.4456; exact-H matches=10/10; global matches=10/10
+  ADAPTIVE BEST=11.4456; global optimum match=True; global objective gap=0.0
+
+JOBS=4 CP-SAT minimum H=11 global weighted optimum=14.5808 (H=12)
+  exact H=11: variables=76, couplers=536, CP-SAT OPT=15.536; QUBO best=15.536; exact-H matches=10/10; global matches=0/10
+  exact H=12: variables=88, couplers=698, CP-SAT OPT=14.5808; QUBO best=14.5808; exact-H matches=10/10; global matches=10/10
+  ADAPTIVE BEST=14.5808; global optimum match=True; global objective gap=0.0
+
+JOBS=5 CP-SAT minimum H=12 global weighted optimum=15.7132 (H=13)
+  exact H=12: variables=113, couplers=1010, CP-SAT OPT=16.6684; QUBO best=16.6684; exact-H matches=9/10; global matches=0/10
+  exact H=13: variables=128, couplers=1256, CP-SAT OPT=15.7132; QUBO best=15.7132; exact-H matches=5/10; global matches=5/10
+  ADAPTIVE BEST=15.7132; global optimum match=True; global objective gap=0.0
+ERRORS: None
+Share this entire summary with the Agentic AI Project Coordinator for scientific review.

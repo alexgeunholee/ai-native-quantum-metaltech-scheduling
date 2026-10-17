@@ -1,0 +1,4985 @@
+{
+  "backend": "VeloxQ quantum-inspired GPU optimizer; no physical QPU",
+  "best_feasible": {
+    "business_objective": 8,
+    "electricity_usd": null,
+    "feasible": true,
+    "issues": [],
+    "makespan": 8,
+    "occurrences": 23,
+    "provider_energy": 0.0,
+    "qubo_energy": 0.0,
+    "sample": {
+      "Z1_F_2": 0,
+      "Z1_F_3": 0,
+      "Z1_F_4": 0,
+      "Z1_F_5": 1,
+      "Z1_S_3": 0,
+      "Z1_S_4": 0,
+      "Z1_S_5": 0,
+      "Z1_S_6": 1,
+      "Z1_T_0": 0,
+      "Z1_T_1": 0,
+      "Z1_T_2": 0,
+      "Z1_T_3": 1,
+      "Z2_F_1": 1,
+      "Z2_F_2": 0,
+      "Z2_F_3": 0,
+      "Z2_F_4": 0,
+      "Z2_F_5": 0,
+      "Z2_S_3": 0,
+      "Z2_S_4": 1,
+      "Z2_S_5": 0,
+      "Z2_S_6": 0,
+      "Z2_S_7": 0,
+      "Z2_T_0": 1,
+      "Z2_T_1": 0,
+      "Z2_T_2": 0,
+      "Z2_T_3": 0,
+      "Z2_T_4": 0,
+      "Z3_F_2": 0,
+      "Z3_F_3": 1,
+      "Z3_F_4": 0,
+      "Z3_F_5": 0,
+      "Z3_S_4": 0,
+      "Z3_S_5": 1,
+      "Z3_S_6": 0,
+      "Z3_S_7": 0,
+      "Z3_T_0": 0,
+      "Z3_T_1": 1,
+      "Z3_T_2": 0,
+      "Z3_T_3": 0
+    },
+    "schedule": [
+      {
+        "end": 1,
+        "job": "Z2",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z2",
+        "machine": "F",
+        "start": 1
+      },
+      {
+        "end": 3,
+        "job": "Z3",
+        "machine": "T",
+        "start": 1
+      },
+      {
+        "end": 5,
+        "job": "Z3",
+        "machine": "F",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z1",
+        "machine": "T",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z2",
+        "machine": "S",
+        "start": 4
+      },
+      {
+        "end": 6,
+        "job": "Z1",
+        "machine": "F",
+        "start": 5
+      },
+      {
+        "end": 6,
+        "job": "Z3",
+        "machine": "S",
+        "start": 5
+      },
+      {
+        "end": 8,
+        "job": "Z1",
+        "machine": "S",
+        "start": 6
+      }
+    ],
+    "weighted_tardiness": null
+  },
+  "feasible_fraction": 0.8671875,
+  "feasible_samples_weighted": 222,
+  "num_rep": 256,
+  "num_steps": 1500,
+  "optimal_reference_match": true,
+  "result_info": "{'main_loop_time': 0.034031274, 'total_time': 0.035707732, 'L': np.int64(39), 'num_rep': np.int64(256)}",
+  "samples": [
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 23,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 1,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 1,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 1,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z1",
+          "machine": "S",
+          "start": 6
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 16,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 1,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 13,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 10,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 1,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 31,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 1,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 18,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 1,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 1,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z2",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 19,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 1,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 1,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 11,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 1,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 21,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 1,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 1,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 1,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 8,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 1,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 34,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 1,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 1,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 12,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 1,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 1,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 1,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 1,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 6,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 1,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 1,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 1,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z1",
+          "machine": "S",
+          "start": 6
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 1,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2 T/F precedence"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 1,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 1,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 1,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 1,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 1,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "T overlap Z1/Z3"
+      ],
+      "makespan": 8,
+      "occurrences": 3,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 2,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 1,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 1,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-F has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 1,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z3-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "F overlap Z3/Z2"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 1,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 1,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "T overlap Z1/Z3"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 1,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 1,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 1,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-S has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 2,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 1,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 1,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 1,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2 T/F precedence"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 1,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 1,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 1,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z3-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2-S has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 1,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 1,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 1,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z1",
+          "machine": "S",
+          "start": 6
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1 T/F precedence"
+      ],
+      "makespan": 8,
+      "occurrences": 2,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "T overlap Z1/Z3"
+      ],
+      "makespan": 8,
+      "occurrences": 2,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1 T/F precedence"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 1,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "T overlap Z1/Z3"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "T overlap Z1/Z3"
+      ],
+      "makespan": 8,
+      "occurrences": 2,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 1,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z3-F has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 1,
+        "Z1_S_3": 0,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 1,
+        "Z1_T_0": 0,
+        "Z1_T_1": 1,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 1,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 1,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z1",
+          "machine": "S",
+          "start": 6
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-F has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 1,
+        "Z3_S_6": 0,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-F has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 1,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 1,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 1,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z3",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z2",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2-S has 2 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 1,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 1,
+        "Z2_S_6": 1,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 1,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 1
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z2-F has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 1,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 1,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 1,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 4,
+          "job": "Z3",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z2",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z3-T has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 1,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 0,
+        "Z1_S_4": 1,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 1,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 0,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 0,
+        "Z2_F_4": 0,
+        "Z2_F_5": 1,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 0,
+        "Z2_S_6": 0,
+        "Z2_S_7": 1,
+        "Z2_T_0": 0,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 1,
+        "Z3_F_2": 0,
+        "Z3_F_3": 1,
+        "Z3_F_4": 0,
+        "Z3_F_5": 0,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 1,
+        "Z3_S_7": 0,
+        "Z3_T_0": 0,
+        "Z3_T_1": 0,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "T",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z2",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "feasible": false,
+      "issues": [
+        "Z1-F has 0 starts, expected one"
+      ],
+      "makespan": 8,
+      "occurrences": 1,
+      "provider_energy": 5.0,
+      "qubo_energy": 5.0,
+      "sample": {
+        "Z1_F_2": 0,
+        "Z1_F_3": 0,
+        "Z1_F_4": 0,
+        "Z1_F_5": 0,
+        "Z1_S_3": 1,
+        "Z1_S_4": 0,
+        "Z1_S_5": 0,
+        "Z1_S_6": 0,
+        "Z1_T_0": 0,
+        "Z1_T_1": 0,
+        "Z1_T_2": 0,
+        "Z1_T_3": 1,
+        "Z2_F_1": 0,
+        "Z2_F_2": 0,
+        "Z2_F_3": 1,
+        "Z2_F_4": 0,
+        "Z2_F_5": 0,
+        "Z2_S_3": 0,
+        "Z2_S_4": 0,
+        "Z2_S_5": 1,
+        "Z2_S_6": 0,
+        "Z2_S_7": 0,
+        "Z2_T_0": 1,
+        "Z2_T_1": 0,
+        "Z2_T_2": 0,
+        "Z2_T_3": 0,
+        "Z2_T_4": 0,
+        "Z3_F_2": 0,
+        "Z3_F_3": 0,
+        "Z3_F_4": 0,
+        "Z3_F_5": 1,
+        "Z3_S_4": 0,
+        "Z3_S_5": 0,
+        "Z3_S_6": 0,
+        "Z3_S_7": 1,
+        "Z3_T_0": 0,
+        "Z3_T_1": 1,
+        "Z3_T_2": 0,
+        "Z3_T_3": 0
+      },
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z2",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ]
+    }
+  ],
+  "status": "SUCCESS",
+  "top_feasible": [
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 23,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z3",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z3",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z1",
+          "machine": "S",
+          "start": 6
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 16,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 13,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 10,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 31,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 18,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "S",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 6,
+          "job": "Z2",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 19,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 11,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "F",
+          "start": 1
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z1",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 21,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 1,
+          "job": "Z2",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "T",
+          "start": 1
+        },
+        {
+          "end": 4,
+          "job": "Z2",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z1",
+          "machine": "F",
+          "start": 4
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z1",
+          "machine": "S",
+          "start": 5
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    },
+    {
+      "business_objective": 8,
+      "electricity_usd": null,
+      "feasible": true,
+      "issues": [],
+      "makespan": 8,
+      "occurrences": 8,
+      "provider_energy": 0.0,
+      "qubo_energy": 0.0,
+      "schedule": [
+        {
+          "end": 2,
+          "job": "Z1",
+          "machine": "T",
+          "start": 0
+        },
+        {
+          "end": 3,
+          "job": "Z1",
+          "machine": "F",
+          "start": 2
+        },
+        {
+          "end": 3,
+          "job": "Z2",
+          "machine": "T",
+          "start": 2
+        },
+        {
+          "end": 5,
+          "job": "Z2",
+          "machine": "F",
+          "start": 3
+        },
+        {
+          "end": 5,
+          "job": "Z3",
+          "machine": "T",
+          "start": 3
+        },
+        {
+          "end": 6,
+          "job": "Z1",
+          "machine": "S",
+          "start": 4
+        },
+        {
+          "end": 7,
+          "job": "Z3",
+          "machine": "F",
+          "start": 5
+        },
+        {
+          "end": 7,
+          "job": "Z2",
+          "machine": "S",
+          "start": 6
+        },
+        {
+          "end": 8,
+          "job": "Z3",
+          "machine": "S",
+          "start": 7
+        }
+      ],
+      "weighted_tardiness": null
+    }
+  ],
+  "total_samples_weighted": 256,
+  "wall_seconds": 5.091
+}

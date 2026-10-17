@@ -1,0 +1,118 @@
+{
+  "instance": "proposed_stage2_energy",
+  "is_cp_sat_global_optimum": true,
+  "method": "unseeded_neal (neal classical binary quadratic sampler)",
+  "objective": {
+    "F": 11.4456,
+    "electricity_cost_cents": 2228,
+    "electricity_cost_usd": 22.28,
+    "energy_objective_contribution": 0.4456,
+    "makespan": 9,
+    "peak_energy_kwh": 54,
+    "tardiness_by_job": {
+      "Z1": 1,
+      "Z2": 0,
+      "Z3": 0
+    },
+    "weighted_tardiness": 1
+  },
+  "schedule": [
+    {
+      "end": 1,
+      "job": "Z2",
+      "machine": "T",
+      "start": 0
+    },
+    {
+      "end": 3,
+      "job": "Z2",
+      "machine": "F",
+      "start": 1
+    },
+    {
+      "end": 3,
+      "job": "Z3",
+      "machine": "T",
+      "start": 1
+    },
+    {
+      "end": 4,
+      "job": "Z2",
+      "machine": "S",
+      "start": 3
+    },
+    {
+      "end": 5,
+      "job": "Z1",
+      "machine": "T",
+      "start": 3
+    },
+    {
+      "end": 6,
+      "job": "Z1",
+      "machine": "F",
+      "start": 5
+    },
+    {
+      "end": 8,
+      "job": "Z3",
+      "machine": "F",
+      "start": 6
+    },
+    {
+      "end": 8,
+      "job": "Z1",
+      "machine": "S",
+      "start": 6
+    },
+    {
+      "end": 9,
+      "job": "Z3",
+      "machine": "S",
+      "start": 8
+    }
+  ],
+  "synthetic_input": {
+    "due_dates": {
+      "Z1": 7,
+      "Z2": 5,
+      "Z3": 10
+    },
+    "energy": {
+      "assumption": "Synthetic factory power and tariff model, 1h time grid",
+      "objective_weight_per_usd": 0.02,
+      "offpeak_cents_per_kwh": 11,
+      "peak_cents_per_kwh": 27,
+      "peak_window_hours": [
+        2,
+        6
+      ],
+      "power_kw": {
+        "F": 12,
+        "S": 6,
+        "T": 8
+      }
+    },
+    "horizon": 9,
+    "label": "PROPOSED_STAGE_2_ENERGY_NOT_OFFICIAL_INPUT",
+    "mill_outage": {
+      "end": 5,
+      "machine": "F",
+      "start": 3
+    },
+    "priority_weights": {
+      "Z1": 1,
+      "Z2": 3,
+      "Z3": 1
+    },
+    "reference_target_F": 11,
+    "source": "Demonstration manufacturing extension defined in this project",
+    "tardiness_multiplier": 2
+  },
+  "validation": {
+    "issues": [],
+    "makespan": 9,
+    "operations_checked": 9,
+    "valid": true
+  }
+}

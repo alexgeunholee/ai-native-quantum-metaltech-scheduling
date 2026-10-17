@@ -1,0 +1,962 @@
+{
+  "team": "AI-Native Quantum",
+  "project": "QPoland 2026 MetalTech scheduling",
+  "file_count": 191,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 124,
+      "sha256": "361a673ec469c594b7449a644c6554e75085cd4e7312dd8235369443b738bc09"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 303,
+      "sha256": "1ade12f95fdb896c57e165c260afb266a2979b3b0da34fae8bdf528a04a3dba5"
+    },
+    {
+      "path": "AI_USAGE.md",
+      "bytes": 1545,
+      "sha256": "38bb34584fc781d1d958e7a81a654602a8c1382a4f582059e89d3dcd317b2da8"
+    },
+    {
+      "path": "DEVELOPMENT_LOG.md",
+      "bytes": 5835,
+      "sha256": "6e9ddef6ef396f978d4dd4a6b59578f580617c23096373d703576d7e2c16219f"
+    },
+    {
+      "path": "HOW_TO_PUBLISH_ON_GITHUB.md",
+      "bytes": 2116,
+      "sha256": "1a693f1928c285e6915e1ed617c33bcd418dfff8442ef2a8807360205def6961"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "8e23905af9662bc8aa25edf3d920a8dba3326fe6dd8ac99dd0f11b3d8518a738"
+    },
+    {
+      "path": "PROJECT_DESIGN.md",
+      "bytes": 7686,
+      "sha256": "0fb4ef2b164a0073c05d9d432b7b6b4e9432f85007532369985b0856c530a2c4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9373,
+      "sha256": "c0b1e266cf2ab7240ee4477ca39ef5a5705746ae660113307f77f9d3620fc7cf"
+    },
+    {
+      "path": "RESULTS_AND_VERIFICATION.md",
+      "bytes": 3922,
+      "sha256": "3db5dbb2025574e28f727e501ac1cf6399d555d6806c3212473a78d9794107b8"
+    },
+    {
+      "path": "SECURITY_AND_REPRODUCIBILITY.md",
+      "bytes": 1318,
+      "sha256": "ef1ba4034381a0cb411027375237d83b088a67611e8fda935d7efdd38a15c3dc"
+    },
+    {
+      "path": "SUBMISSION_CHECKLIST.md",
+      "bytes": 1804,
+      "sha256": "f0fbb1446e8d6001f674b0ba822bd29aea3785e014fcda5df6e40dc36d30dfe7"
+    },
+    {
+      "path": "assets/adaptive_horizon_tradeoff.png",
+      "bytes": 60526,
+      "sha256": "ede157afbe61a28cd7b846694d5a54b6012e88c39420c4e4c782981271bd0fa3"
+    },
+    {
+      "path": "assets/baseline_classical_gantt.png",
+      "bytes": 26158,
+      "sha256": "8f6f03c00e347a31f48a9d360d075bfda4f18fa23d459cdd146c6863e8e8bc18"
+    },
+    {
+      "path": "assets/baseline_qaoa_gantt.png",
+      "bytes": 22321,
+      "sha256": "804570136edd8e7c9a9ad6fc2420b78c75ed79917d472be770d0ec03a91effd5"
+    },
+    {
+      "path": "assets/energy_schedule_gantt.png",
+      "bytes": 29317,
+      "sha256": "a5b1ae882c4c186a0230adc09469118a7b673c41751538c44c40edcc0966a99b"
+    },
+    {
+      "path": "assets/live_penalty_sensitivity.png",
+      "bytes": 62481,
+      "sha256": "8388ef8afc5431e76587e2aadebf55f0e23621a64a6e642f02f665c56c887459"
+    },
+    {
+      "path": "assets/live_qaoa_counts.png",
+      "bytes": 30566,
+      "sha256": "09f45aa07d64511a18b1ba49e91193f0faa6961162fb95a2bbd7f15a3a5542d2"
+    },
+    {
+      "path": "assets/robustness_feasibility.png",
+      "bytes": 83336,
+      "sha256": "b046da331df66da6961900636113ea080533168e060c038eb9dae7cae00bd7e7"
+    },
+    {
+      "path": "audits/README.md",
+      "bytes": 479,
+      "sha256": "435e08d82f4da50d9401ebfd207b894f677d4d68cbc06de0d06b56b8861bae1b"
+    },
+    {
+      "path": "audits/experiment3_independent_audit.md",
+      "bytes": 3826,
+      "sha256": "1a5d254f2eeb5607aa1e4edeea1dee9aaa6b94a83491c3c81340ed927cdd39b5"
+    },
+    {
+      "path": "audits/experiment4_independent_audit.md",
+      "bytes": 7006,
+      "sha256": "e85e7f7bb3348da1cc3e19d541e983188ed4c3ca439dbbec3a43c3c72a223767"
+    },
+    {
+      "path": "audits/live_demo_independent_review.md",
+      "bytes": 4497,
+      "sha256": "111fc58aed552526780752c874a2c2ecd5e92f5aca38939230a4d8c6022a795e"
+    },
+    {
+      "path": "docs/DEMO_AND_LIVE_GUIDE.md",
+      "bytes": 1810,
+      "sha256": "8e3c55af9a8a1aa38922c139b09b6a915369deb7ea91ef7236b211a501d7302d"
+    },
+    {
+      "path": "evidence/adaptive_horizon/FINAL_RESULTS_FOR_CHATGPT.txt",
+      "bytes": 1605,
+      "sha256": "8f87f921fafd3df2495d2adf37dd084806a91dad8b3380c90aeb6f4587db2033"
+    },
+    {
+      "path": "evidence/adaptive_horizon/figures/horizon_objective_tradeoff.png",
+      "bytes": 60526,
+      "sha256": "ede157afbe61a28cd7b846694d5a54b6012e88c39420c4e4c782981271bd0fa3"
+    },
+    {
+      "path": "evidence/adaptive_horizon/inputs/3jobs.json",
+      "bytes": 604,
+      "sha256": "d107081e631b66a85a2891c133fb659754a2dd41e529f80f46dac4c66c7f400f"
+    },
+    {
+      "path": "evidence/adaptive_horizon/inputs/4jobs.json",
+      "bytes": 676,
+      "sha256": "ad0534d6d5bd0702c3241544389d5f85a5c523371a377a4ffdc27eb7c95859e6"
+    },
+    {
+      "path": "evidence/adaptive_horizon/inputs/5jobs.json",
+      "bytes": 748,
+      "sha256": "4303698d412ebd807a675078c62c3cd5c8ba588555245401cd71f3df2bf1eeff"
+    },
+    {
+      "path": "evidence/adaptive_horizon/manifest.json",
+      "bytes": 3107,
+      "sha256": "3e5c7d95d728e0a0455271157662fd80a08733b01baea83be56fb07d131d5939"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/3jobs_H9_P100.json",
+      "bytes": 14786,
+      "sha256": "6b843bfee90a6939657b776220fafaf882483244a08e9c9d72d30bf4c10ba0a3"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/3jobs_H9_P25.json",
+      "bytes": 14613,
+      "sha256": "e3f30d358827a3ccbda1ddaecef6f59b2156291161fb7b51ef64a73fc927db0c"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/4jobs_H11_P100.json",
+      "bytes": 42373,
+      "sha256": "0cb6100301ebb8f84dcf58401ab1de4df314a2b01c0bb69c8ce1781faf0a3c90"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/4jobs_H11_P25.json",
+      "bytes": 41874,
+      "sha256": "69e10c09389409ceb530bd3c0a0849304b8c83e74ef51f92d70770c0f26c589b"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/4jobs_H12_P100.json",
+      "bytes": 54861,
+      "sha256": "e8bd5068bc93e26ffab24540d108b53d43388867509cc2d42c39b71340e9c8c5"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/4jobs_H12_P25.json",
+      "bytes": 54240,
+      "sha256": "cf4cf1926ba3208098584e2e1029c8aaf0d65f4e218f4cd3ba524d6255866946"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/5jobs_H12_P100.json",
+      "bytes": 78918,
+      "sha256": "5495cdd4999d3f460ade89c8b8115c876d117618b1cd9ac4f38d1fcf2d16ed29"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/5jobs_H12_P25.json",
+      "bytes": 77995,
+      "sha256": "abaf2922062a9d34f31e8cfb1d5a6dd096714fd3e2d30b9c46c99c6187539785"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/5jobs_H13_P100.json",
+      "bytes": 97926,
+      "sha256": "848ba5a6367a180f54efb94732b8c16437906cc50aab760efeaf94633533983a"
+    },
+    {
+      "path": "evidence/adaptive_horizon/models/5jobs_H13_P25.json",
+      "bytes": 96756,
+      "sha256": "bdc020b48ea2b725be3f650ff347c1e55551ff1816e2cc869a79b9368c156433"
+    },
+    {
+      "path": "evidence/adaptive_horizon/runs/3jobs_H9.json",
+      "bytes": 21566,
+      "sha256": "cff3f9bc96a6792694a8a692e53c6898feebe7b11bff13e20c21ad587d84c3c2"
+    },
+    {
+      "path": "evidence/adaptive_horizon/runs/4jobs_H11.json",
+      "bytes": 25196,
+      "sha256": "5ad4f08170b90e6cc395fb5a2acabe462f1f85b7c5b41f8bd9c6056e643e6a7c"
+    },
+    {
+      "path": "evidence/adaptive_horizon/runs/4jobs_H12.json",
+      "bytes": 25245,
+      "sha256": "a8b36af59ea3d69b55320da7faaac18d62883c854b867b134ac82b24ce91f1c5"
+    },
+    {
+      "path": "evidence/adaptive_horizon/runs/5jobs_H12.json",
+      "bytes": 29119,
+      "sha256": "76a045ff7f33a293b3126fcf19dc2fe706b35be887cd41e6aa6289f9666ca851"
+    },
+    {
+      "path": "evidence/adaptive_horizon/runs/5jobs_H13.json",
+      "bytes": 29124,
+      "sha256": "c0a5fc80f8024ccfd30dad6e0f66fde955a98e7a1cbf1499cea7fcfd98c62f20"
+    },
+    {
+      "path": "evidence/adaptive_horizon/summaries/full_results.json",
+      "bytes": 182952,
+      "sha256": "8d94ecae9c1e9c7837ae25d91df00af38317cb38b753ec0c7342c2c7f9f6f2d3"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/3jobs_exactH9.json",
+      "bytes": 1131,
+      "sha256": "e96ed16d60b9e9dde802e25b7556f61fd6e9c8d1b367110c1665be527464466e"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/3jobs_minimum_and_unrestricted.json",
+      "bytes": 2598,
+      "sha256": "442d1f0ffd8f18f4c0b922b398fc805ff0bc2e926ba9a1eed8936533ec9e42b8"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/4jobs_exactH11.json",
+      "bytes": 1395,
+      "sha256": "06acf6b58eb3efbf1f176e08a546f5c56fc054f6a73b840b9c431a9541cb0859"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/4jobs_exactH12.json",
+      "bytes": 1397,
+      "sha256": "bd33f8a038e65b6014b8180f16fd514b49f7e52741d1a5192e8b4d1ead19e70a"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/4jobs_minimum_and_unrestricted.json",
+      "bytes": 3202,
+      "sha256": "b32b9c1968215a1b22c0ed56070c52f2314ac730fc39d04ba24b39e2ac115dc2"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/5jobs_exactH12.json",
+      "bytes": 1663,
+      "sha256": "5bf9e5d6aac1e0a72b3fec2ceaaa5a1a16d59e9be358e617a2b7ac230b910b5b"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/5jobs_exactH13.json",
+      "bytes": 1662,
+      "sha256": "2654f92411b1e67c2d535b6509e1482bf057a3c748ee0cfe2caded8684ffedf9"
+    },
+    {
+      "path": "evidence/adaptive_horizon/verification/5jobs_minimum_and_unrestricted.json",
+      "bytes": 3805,
+      "sha256": "1321e8c802954c2da8990d2802ed87d9a7ff560f88ec21864b3cd6963447d3a7"
+    },
+    {
+      "path": "evidence/live_demo/LIVE_DEMO_RESULTS.json",
+      "bytes": 18204,
+      "sha256": "d65bf5cce7fb7adb760b01b12aac1a42d993a37253d02d18fa06db41cdb9343e"
+    },
+    {
+      "path": "evidence/live_demo/READ_ME_FIRST.txt",
+      "bytes": 114,
+      "sha256": "981da4dd9c262b9332ebe0214a81e438b00d5b074e7c1bfaba012a2d57cc5ce0"
+    },
+    {
+      "path": "evidence/live_demo/fresh_adaptive_horizons.csv",
+      "bytes": 252,
+      "sha256": "7e080b45886c49aa3e5e4240b1cb3417b86bbde686d862fc8e9b8ae10db609d8"
+    },
+    {
+      "path": "evidence/live_demo/fresh_penalty_sweep.csv",
+      "bytes": 366,
+      "sha256": "3293af75db1f76af51fcd98e503450fbe7eb73d9f5c231ff320708e8bec4ce2d"
+    },
+    {
+      "path": "evidence/live_demo/gantt_01.png",
+      "bytes": 17437,
+      "sha256": "60602e183cf3ccd5659e8b6b5a48ee70b1814e08a945a7a9156b04cfa83a2e17"
+    },
+    {
+      "path": "evidence/live_demo/gantt_02.png",
+      "bytes": 21998,
+      "sha256": "723556a2fe7a5d4d27b0237c7b43f4746db976be11f3141a96e82aec66d9b8b2"
+    },
+    {
+      "path": "evidence/live_demo/gantt_03.png",
+      "bytes": 23501,
+      "sha256": "622c924e01bcabf386bbc548d490163d6f2de16390e9f734084e79d58ec9131d"
+    },
+    {
+      "path": "evidence/live_demo/gantt_04.png",
+      "bytes": 22241,
+      "sha256": "c0ba38c45ec5d57e8a024ac7322be03c3f065e5dd85737af1d88fd835969bd31"
+    },
+    {
+      "path": "evidence/live_demo/gantt_05.png",
+      "bytes": 24130,
+      "sha256": "673f42b3f57008b3e1c4bb4f898f109a6612ed97ab6c39b35e9e41a771fff986"
+    },
+    {
+      "path": "evidence/live_demo/gantt_06.png",
+      "bytes": 26464,
+      "sha256": "fa1a1112972fb7657a60f6b192e8604c1a92af397647fc24eade75790eba6008"
+    },
+    {
+      "path": "evidence/live_demo/gantt_07.png",
+      "bytes": 29002,
+      "sha256": "ed761fe619fa2eeeb3e9be516c23bb3b2c0930dffece0783185e43a8588cfe74"
+    },
+    {
+      "path": "evidence/live_demo/gantt_08.png",
+      "bytes": 23370,
+      "sha256": "a0f49f638ce2772228034b8306459d3475e6d85b4bed9194a4f75df0a3f2434f"
+    },
+    {
+      "path": "evidence/live_demo/gantt_09.png",
+      "bytes": 25496,
+      "sha256": "88cdb6b6174fddf2ed36a607d8db449ecc879f24d19d9ab602f8e2e386da0318"
+    },
+    {
+      "path": "evidence/live_demo/gantt_10.png",
+      "bytes": 25926,
+      "sha256": "5cabc253d3f11461641d0a2b36163f908c1c6d8cf6945e53634a0a83e69a9984"
+    },
+    {
+      "path": "evidence/live_demo/historical_horizon_tradeoff.png",
+      "bytes": 41699,
+      "sha256": "74a4d56f714bb9cc0e2fffe23d9492e38b2116a60c8b96a8be8f8cc452523058"
+    },
+    {
+      "path": "evidence/live_demo/historical_velox_comparison.csv",
+      "bytes": 342,
+      "sha256": "5a5718dd985f6c3629332f4a9907b8bcecad5a4cbdbc3ca319a29549560765ce"
+    },
+    {
+      "path": "evidence/live_demo/live_penalty_sensitivity.png",
+      "bytes": 62481,
+      "sha256": "8388ef8afc5431e76587e2aadebf55f0e23621a64a6e642f02f665c56c887459"
+    },
+    {
+      "path": "evidence/live_demo/live_qaoa_counts.png",
+      "bytes": 30566,
+      "sha256": "09f45aa07d64511a18b1ba49e91193f0faa6961162fb95a2bbd7f15a3a5542d2"
+    },
+    {
+      "path": "evidence/original_baselines/FINAL_RESULTS_FOR_CHATGPT.txt",
+      "bytes": 2331,
+      "sha256": "393401aa545f8ae0f01ddf49bbf573dc5964110484f1cd2bf379c5710c095057"
+    },
+    {
+      "path": "evidence/original_baselines/extension/stage2_energy_comparison.json",
+      "bytes": 1168,
+      "sha256": "646ccaab0ddb30b16a91d3841891a52bf3ae21160b292e66df0528c25b7fc0ca"
+    },
+    {
+      "path": "evidence/original_baselines/extension/stage2_energy_schedule.json",
+      "bytes": 2185,
+      "sha256": "4a598d0e3e7467342220cc7c1b7b8c86563633da89d1cdbfea07057280e98dac"
+    },
+    {
+      "path": "evidence/original_baselines/extension/stage2_schedule.json",
+      "bytes": 1538,
+      "sha256": "e963f533c0b539f339aa279091241ffc3222fd69a1726ff6fdfd746019bf8f23"
+    },
+    {
+      "path": "evidence/original_baselines/figures/A_QAOA_Gantt.png",
+      "bytes": 22321,
+      "sha256": "804570136edd8e7c9a9ad6fc2420b78c75ed79917d472be770d0ec03a91effd5"
+    },
+    {
+      "path": "evidence/original_baselines/figures/A_QAOA_counts.png",
+      "bytes": 59460,
+      "sha256": "4abaf34182ad0928f2cc72d44f6ce4b2f2a2623975c4693c5ffc3deb7969abdc"
+    },
+    {
+      "path": "evidence/original_baselines/figures/B_QUBO_Gantt.png",
+      "bytes": 26158,
+      "sha256": "8f6f03c00e347a31f48a9d360d075bfda4f18fa23d459cdd146c6863e8e8bc18"
+    },
+    {
+      "path": "evidence/original_baselines/figures/Stage2_Energy_Gantt.png",
+      "bytes": 29317,
+      "sha256": "a5b1ae882c4c186a0230adc09469118a7b673c41751538c44c40edcc0966a99b"
+    },
+    {
+      "path": "evidence/original_baselines/figures/Stage2_Gantt.png",
+      "bytes": 28089,
+      "sha256": "f550c0cba80c2a85734683a49fa7139bc3e6502a6a82e50e925f76c872e6ae4e"
+    },
+    {
+      "path": "evidence/original_baselines/figures/Stage2_energy_cost_comparison.png",
+      "bytes": 34328,
+      "sha256": "a819b9a24375da766aba648f04a56f1bb3a3e51e005edc849afa5ef6397c4f54"
+    },
+    {
+      "path": "evidence/original_baselines/inputs/instance_2x2.json",
+      "bytes": 454,
+      "sha256": "d408c120b02133087581d9d2a53eceabce9b3ccc76a8b08280da8b7bf5a3a92a"
+    },
+    {
+      "path": "evidence/original_baselines/inputs/instance_3x3.json",
+      "bytes": 869,
+      "sha256": "4d924704f3ab03a80e5402464be7131551e17fed69b94a4967a681df0716851a"
+    },
+    {
+      "path": "evidence/original_baselines/inputs/stage2_energy_proposed_extension.json",
+      "bytes": 724,
+      "sha256": "86683a3394035576d2d20137822b204ccff9651c63197ddc423e7ed7cc13d426"
+    },
+    {
+      "path": "evidence/original_baselines/inputs/stage2_proposed_extension.json",
+      "bytes": 404,
+      "sha256": "6af0769aace92dcb7c74a1f79e6eebee8a90bc3e856cd1b1e13ce75e25b1c667"
+    },
+    {
+      "path": "evidence/original_baselines/manifest.json",
+      "bytes": 6914,
+      "sha256": "3da87a65af3f4a4b06d705c2fc554abdeb4c4857f52229225051ee34aca36156"
+    },
+    {
+      "path": "evidence/original_baselines/quantum/A_QAOA_Aer_counts.json",
+      "bytes": 3333,
+      "sha256": "d20490def9023df43fb49f8b7ab63b88caab848d47724043b21e18e3ab262234"
+    },
+    {
+      "path": "evidence/original_baselines/quantum/A_QAOA_final_circuit.qasm3",
+      "bytes": 3153,
+      "sha256": "a72e4f5cac35761290af72e6c840803927f55dcc9e4423a05997bd8401f3b934"
+    },
+    {
+      "path": "evidence/original_baselines/quantum/A_QAOA_optimizer_trials.json",
+      "bytes": 2320,
+      "sha256": "be892a4bdccd5ae27b395f833ee32dfeed0bfebd2c750336914d4bc0a3ffbb2f"
+    },
+    {
+      "path": "evidence/original_baselines/quantum/A_QAOA_summary.json",
+      "bytes": 1007,
+      "sha256": "a5a311da8aa72a2d472023f34c85fb3a99f174e0b0d8a7cbdae27530d7955aa7"
+    },
+    {
+      "path": "evidence/original_baselines/quantum/A_exact_diagonal_ground_state.json",
+      "bytes": 257,
+      "sha256": "9ff11e98d8eb31860e6fa2c2992653aea866eec34dc7549ea2a707818db0701c"
+    },
+    {
+      "path": "evidence/original_baselines/qubos/instance_2x2_H4_model.json",
+      "bytes": 1345,
+      "sha256": "9d97b56af6139df1d7972bf83702d22a08f390112eaefe43c894f615a38ac3f6"
+    },
+    {
+      "path": "evidence/original_baselines/qubos/instance_3x3_H8_model.json",
+      "bytes": 14750,
+      "sha256": "08b00f991acb1eac8b7fc2d0d79bc7eb3521a524adf92a0af8d7b26dad83df11"
+    },
+    {
+      "path": "evidence/original_baselines/qubos/stage2_H9_model.json",
+      "bytes": 15075,
+      "sha256": "e91de8718507958f08f6ad896627be0c27b6755b40b3de8ee2103f59de431f50"
+    },
+    {
+      "path": "evidence/original_baselines/qubos/stage2_energy_H9_model.json",
+      "bytes": 15161,
+      "sha256": "9a332ff43fc1b4138f6012738aefb0f764df08f01c33c6166fc4b0cb74332cc7"
+    },
+    {
+      "path": "evidence/original_baselines/reports/B_solver_report.json",
+      "bytes": 3888,
+      "sha256": "2229291d0c0c40606aa462f9e2d541d9782ba219c91a4109e4926307d0a857a5"
+    },
+    {
+      "path": "evidence/original_baselines/reports/Stage2Energy_solver_report.json",
+      "bytes": 9067,
+      "sha256": "a3126651da3aed0fffebe71225fcfb7845b4f705c8a69482fd9c5ad2a32ed432"
+    },
+    {
+      "path": "evidence/original_baselines/reports/Stage2_solver_report.json",
+      "bytes": 6227,
+      "sha256": "98ed585e454f0ff89e3f1ac9a072dbaa6767512993436f59017800a9fe356fba"
+    },
+    {
+      "path": "evidence/original_baselines/reports/environment.json",
+      "bytes": 484,
+      "sha256": "97d2cd24e81e0034e880ce23abc0afc842623fe76e1b74327d96f15871611dc4"
+    },
+    {
+      "path": "evidence/original_baselines/repository/AI_USAGE.md",
+      "bytes": 442,
+      "sha256": "4d4fcb16bc6b6e2d92e758f0a9fb3aa0cf82595da11b355e108bb38b21ae71c3"
+    },
+    {
+      "path": "evidence/original_baselines/repository/DEMO_VIDEO_GUIDE.md",
+      "bytes": 833,
+      "sha256": "c04ac501098e859d7e81491ec948561a257fd29505b66e1269eaeccc51a6f814"
+    },
+    {
+      "path": "evidence/original_baselines/repository/DEVELOPMENT_LOG.md",
+      "bytes": 1059,
+      "sha256": "94db0ab0025abc422937b94e40e5626cf219bc401db1d113e213a82ff0f4a838"
+    },
+    {
+      "path": "evidence/original_baselines/repository/LICENSE",
+      "bytes": 1103,
+      "sha256": "3e70526aacccc42cd49fac747d3f43271d3b9f6d17cc80a3888c13008839ce7b"
+    },
+    {
+      "path": "evidence/original_baselines/repository/LIVE_PRESENTATION_GUIDE.md",
+      "bytes": 405,
+      "sha256": "d4df838214e83f8e393d558b772bd55cb7c077f43611351d682147dd4a60202d"
+    },
+    {
+      "path": "evidence/original_baselines/repository/PROJECT_DESIGN.md",
+      "bytes": 2798,
+      "sha256": "6812dc3dd94f0ca8e71e30d78ad52e1b018011284d59ed827c50e56617cd22d5"
+    },
+    {
+      "path": "evidence/original_baselines/repository/README.md",
+      "bytes": 2573,
+      "sha256": "b4bca13ac2d5d8947fcf74547297994a34aab6638c6f9e19a1524b43d4c30565"
+    },
+    {
+      "path": "evidence/original_baselines/repository/SUBMISSION_CHECKLIST.md",
+      "bytes": 699,
+      "sha256": "cd842d8737e84a5641764fce1a91d2eb9f9624aeabb92bf5bec4cf30680b9d7e"
+    },
+    {
+      "path": "evidence/original_baselines/schedules/schedule_2x2.json",
+      "bytes": 474,
+      "sha256": "7c46a2e113bc8bf5a87325ded0b2d2243025fecb844220488834e0053d52a1b6"
+    },
+    {
+      "path": "evidence/original_baselines/schedules/schedule_3x3.json",
+      "bytes": 917,
+      "sha256": "f1b17eafcdb80febc6b7df0c310a52f3111ad6286450e518c44597ffa33ed878"
+    },
+    {
+      "path": "evidence/original_baselines/verification/CP_SAT_A.json",
+      "bytes": 634,
+      "sha256": "84f05d33f4a946d37e4d3f5aa7edad62676d6de6a9cb7334a5a5f7132ce9c570"
+    },
+    {
+      "path": "evidence/original_baselines/verification/CP_SAT_B.json",
+      "bytes": 1069,
+      "sha256": "8a6c75f480bfe6464691e9f856667e72ae5a9d03849808147bcb28893b6b3f5c"
+    },
+    {
+      "path": "evidence/original_baselines/verification/CP_SAT_Stage2.json",
+      "bytes": 1189,
+      "sha256": "06a30c63a04787a1d1f3695b463dfeed18754420f67948297f04b9742a37d4bc"
+    },
+    {
+      "path": "evidence/original_baselines/verification/CP_SAT_Stage2Energy.json",
+      "bytes": 1339,
+      "sha256": "07876d8600000b5761f93a6fe56cc0c1fa5e8d3a7c548f490aa9705db59d7386"
+    },
+    {
+      "path": "evidence/original_baselines/verification/CP_SAT_Stage2_H9.json",
+      "bytes": 1190,
+      "sha256": "fa22b6cf0789d0a59f04242f4d99be6d9d18334a7c84a95df0fffcc89fd836ab"
+    },
+    {
+      "path": "evidence/original_baselines/verification/acceptance_gates.json",
+      "bytes": 161,
+      "sha256": "9515b8c03529e1e53dec75ffc6af54609006a54ded437bd25dde8126661820e9"
+    },
+    {
+      "path": "evidence/robustness_scaling/FINAL_RESULTS_FOR_CHATGPT.txt",
+      "bytes": 2733,
+      "sha256": "ff366deef4a9958651a419331bab63352f9177a1b912943e0f353d0374070a60"
+    },
+    {
+      "path": "evidence/robustness_scaling/figures/feasibility_vs_scale.png",
+      "bytes": 83336,
+      "sha256": "b046da331df66da6961900636113ea080533168e060c038eb9dae7cae00bd7e7"
+    },
+    {
+      "path": "evidence/robustness_scaling/figures/model_growth.png",
+      "bytes": 59188,
+      "sha256": "b24abcba24129e61bdc3ba19138ef92e9b904c32807789b7370fe7fbc00cabfc"
+    },
+    {
+      "path": "evidence/robustness_scaling/figures/qaoa_depth.png",
+      "bytes": 39346,
+      "sha256": "5545e4bc1c0a0cac1990ea09dceb35f15796f81477e842566038670fae228a7f"
+    },
+    {
+      "path": "evidence/robustness_scaling/full_results.json",
+      "bytes": 154599,
+      "sha256": "89b415899ab48d3040108a6c81a41b820f1f444851e7b147823975d21651048d"
+    },
+    {
+      "path": "evidence/robustness_scaling/inputs/synthetic_3jobs.json",
+      "bytes": 585,
+      "sha256": "1e0b46e3b1d50d6645d7be9bd03c617464c11ccd89b2a447a42d088a8f1bbe4d"
+    },
+    {
+      "path": "evidence/robustness_scaling/inputs/synthetic_4jobs.json",
+      "bytes": 657,
+      "sha256": "d91f1b0d75f58484b2e591e197160b95341b9c6a24df7f08dbf59a7634bbbe40"
+    },
+    {
+      "path": "evidence/robustness_scaling/inputs/synthetic_5jobs.json",
+      "bytes": 729,
+      "sha256": "4672a837a4d3d2746e219fa1b65459c9fc70df6c7818375f3069ad50b2476921"
+    },
+    {
+      "path": "evidence/robustness_scaling/manifest.json",
+      "bytes": 3757,
+      "sha256": "da14757bbfe01cfda9ebf817aa7efeb84f7657177d5fde3a3eb54b48e6b52bc3"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/3jobs_penalty100_coefficients.json",
+      "bytes": 14544,
+      "sha256": "61dd55c9cc5ff22599582bc128f5026173777332c2eef1c3ff9fec816edaf59b"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/3jobs_penalty100_metadata.json",
+      "bytes": 89,
+      "sha256": "d28525ce635e8c5b91c29261b3d1bc4da8726cd9a366fb62af14a32d72ad12ad"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/3jobs_penalty25_coefficients.json",
+      "bytes": 14396,
+      "sha256": "40c1f39a3d77a60914263f6350dc242d80a4d19b978559367aae9ea17e4ec2a2"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/3jobs_penalty25_metadata.json",
+      "bytes": 88,
+      "sha256": "4d7d8d4a270938ae4bff74747d81c394422e85c112448735030e7ee6f1bf3b17"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/3jobs_penalty5_coefficients.json",
+      "bytes": 14253,
+      "sha256": "e35890ec7a5a4eb9524f6506e05084da6cb3553974619c3b9e17f90d2a34c820"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/3jobs_penalty5_metadata.json",
+      "bytes": 86,
+      "sha256": "6a8e935ad0b15831702420ba7a21a7efbf5101ce16d5f9b7ce29184140811aed"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/4jobs_penalty100_coefficients.json",
+      "bytes": 42141,
+      "sha256": "a433cb1c408d3e002358a0bfbe228a85fe5d58bef556588a0029e4069d09255a"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/4jobs_penalty100_metadata.json",
+      "bytes": 91,
+      "sha256": "5fc0665210044d9c36df3ae9c5a4d228fa9ccfc075c16c96d81620b005f097fd"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/4jobs_penalty25_coefficients.json",
+      "bytes": 41644,
+      "sha256": "ca3c6c38b7d2e31f1aa0b63106bf2fe08e7c80fbd73caf16145de230e276770b"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/4jobs_penalty25_metadata.json",
+      "bytes": 89,
+      "sha256": "86fc420412dbdc25c955e3456825b7e6a18ee2a4731004c69cf4fef7e15e46ed"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/4jobs_penalty5_coefficients.json",
+      "bytes": 41249,
+      "sha256": "79ac83ae8db2a9285747f49049326f289bf329af84e48007ab4125d57291ed73"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/4jobs_penalty5_metadata.json",
+      "bytes": 87,
+      "sha256": "dfe571700607336991f9de88a6721492acf8eca4467973c938a4839ade81bcbc"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/5jobs_penalty100_coefficients.json",
+      "bytes": 78703,
+      "sha256": "7cc54bad6cc04db9d528e951334a3b71915b4905ee33b4b3a349d6c6f496605a"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/5jobs_penalty100_metadata.json",
+      "bytes": 93,
+      "sha256": "ad9bb9954a8aeb59f74f9844a25884ab9ca68fe563be397a6cedba9c2458ec4f"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/5jobs_penalty25_coefficients.json",
+      "bytes": 77731,
+      "sha256": "46911e76ede1f550e3b7fa8d1c301a01cbb516aff4102e7a64a58474d5289a78"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/5jobs_penalty25_metadata.json",
+      "bytes": 91,
+      "sha256": "78bcead61ccf797803b9235e19b4b65f2b1e051310778e0773dac9ebb9ca5b79"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/5jobs_penalty5_coefficients.json",
+      "bytes": 76983,
+      "sha256": "12e473ea0cd3f323d592885b3ac92883a26a362807244e568fb5235e69ffc459"
+    },
+    {
+      "path": "evidence/robustness_scaling/models/5jobs_penalty5_metadata.json",
+      "bytes": 89,
+      "sha256": "fd9766d98586000d8034dbca88ef6f41e9e90f9a8d88f6a3ee1ab1f46f0ae980"
+    },
+    {
+      "path": "evidence/robustness_scaling/quantum/qaoa_depth_comparison.json",
+      "bytes": 28203,
+      "sha256": "0d5c861f6adce4b5a1e1cbf257092632e4e5241207a4639080a57b528d9c5049"
+    },
+    {
+      "path": "evidence/robustness_scaling/runs/3jobs_all_trials.json",
+      "bytes": 29040,
+      "sha256": "5fac88a7af5729d1afe29863d981d8c19921abd1bd381858b1547af1fd8751be"
+    },
+    {
+      "path": "evidence/robustness_scaling/runs/4jobs_all_trials.json",
+      "bytes": 34614,
+      "sha256": "89bff532c0b2745fdb38a02ab8f67b4b053d198b98c9597e331e96e0322d2f96"
+    },
+    {
+      "path": "evidence/robustness_scaling/runs/5jobs_all_trials.json",
+      "bytes": 40397,
+      "sha256": "f4b13ce12ecfcf03912a902b095124a39459eccde24d69e061e0e31435e95dbf"
+    },
+    {
+      "path": "evidence/robustness_scaling/verification/3jobs_cp_sat.json",
+      "bytes": 3800,
+      "sha256": "3a3e4dacd8e5457460eb3c553780752d9c2eefc222704b6f3ca4cc738a666ecd"
+    },
+    {
+      "path": "evidence/robustness_scaling/verification/4jobs_cp_sat.json",
+      "bytes": 4704,
+      "sha256": "cab9c602e2c8ba67a2d7338188be537c3a3f8a4652032a72c58d1d0f84962697"
+    },
+    {
+      "path": "evidence/robustness_scaling/verification/5jobs_cp_sat.json",
+      "bytes": 5611,
+      "sha256": "1d0c7a414323add9f9a1d51f025890cfb93a5c5c1b15d606b9be97bb77c7caef"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/ALL_BENCHMARKS_COMPARISON.csv",
+      "bytes": 528,
+      "sha256": "1c2f7a71ce23028eb920b98830f7834aa43ffe3ba01c3dd5068cc80fa3f51175"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/FINAL_RESULTS_FOR_CHATGPT.txt",
+      "bytes": 1780,
+      "sha256": "83f183801e2e42e67d8aaffdb2711f64a203149ef216e475744e2006cc01ab19"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/README.md",
+      "bytes": 311,
+      "sha256": "1754a727c27415308803d4ef5859319f322a8997ccd70a47352a769fade9fb6f"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/SHA256_MANIFEST.json",
+      "bytes": 2925,
+      "sha256": "0d9bab9f307f257275438b929787bd9cc705b395bb8cf9ed5c6e12f0a133931f"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/SUMMARY.json",
+      "bytes": 1847,
+      "sha256": "6ffe2f3c139ff1084d010b874f64fe6234694730c396e551b59ae18a10bc9230"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_3jobs_H9_P25_Gantt.png",
+      "bytes": 35338,
+      "sha256": "91908bb69f1e250f759bd3ad36a9acb14f9f3306b9ddb6cc7617f2c6383de1a7"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_3jobs_H9_P25_input.json",
+      "bytes": 603,
+      "sha256": "fbc78ef9b0b4d1c77bb48c268bb81c73b6f253e06f0eb23f1625afa07c2fc929"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_3jobs_H9_P25_model.json",
+      "bytes": 14612,
+      "sha256": "860ac0ad59a72efee3c1279c1e30f29e55d25a7411e64ef7b24abf91384af43c"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_3jobs_H9_P25_reference.json",
+      "bytes": 85,
+      "sha256": "bfd58ebe009d8f065f58cabb6defabc6353856dd8b6edf4e8ac064b99f6b0069"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_3jobs_H9_P25_schedule.csv",
+      "bytes": 103,
+      "sha256": "190eea7c44d3ec89038ddc565667aa93e841c814d7207b93c7c40392bd253bc9"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_3jobs_H9_P25_veloxq_result.json",
+      "bytes": 125348,
+      "sha256": "3483a1e8afdcbdd6419315909826f580a82f51624f32d2b34bb88600647ceae5"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_4jobs_H12_P25_Gantt.png",
+      "bytes": 37838,
+      "sha256": "821a39f55bfe379546c87309116899fb8a4c8a4c2f9950d0e5771c0c9f7c3ce7"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_4jobs_H12_P25_input.json",
+      "bytes": 675,
+      "sha256": "5fe412fad035fd78f1f7aae3a542ed2eea0428860d2d012fabd87438f1330a01"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_4jobs_H12_P25_model.json",
+      "bytes": 54239,
+      "sha256": "4f29a13eff62ae218202f430b88ea714a7a8786d6e579f91f47466719d734a02"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_4jobs_H12_P25_reference.json",
+      "bytes": 86,
+      "sha256": "289756870eaa345320d34384db2b486cd205c34924a7186af4e037e085239ed9"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_4jobs_H12_P25_schedule.csv",
+      "bytes": 134,
+      "sha256": "c21c80f055a6721b4695a6ab4f835d96c8bc8e4238d527d8f91f6eaf87c15ee4"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_4jobs_H12_P25_veloxq_result.json",
+      "bytes": 505289,
+      "sha256": "e7de7c2213a5542dd140076bf1fb8b7d0d8f17772fa96ce594f2bae156ab048a"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_5jobs_H13_P25_Gantt.png",
+      "bytes": 40500,
+      "sha256": "303475eb4525f2c1caa0fd84e756fa6d855974efcb9899cfe18a5aa4fd3f3680"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_5jobs_H13_P25_input.json",
+      "bytes": 747,
+      "sha256": "51b5c9c87fe5554bd8a584825ec2559312c84a7dc4a93989d836508b964f6dd0"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_5jobs_H13_P25_model.json",
+      "bytes": 96755,
+      "sha256": "dd5afd2dcfc3c2ee13457cc3bb10431e500827fffe3b8419eece38c2dfec1280"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_5jobs_H13_P25_reference.json",
+      "bytes": 86,
+      "sha256": "88044faaeaebe21920c8cb758c58ee35fe5060e13f3815bcc7347f670a4fb803"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_5jobs_H13_P25_schedule.csv",
+      "bytes": 166,
+      "sha256": "2700a2f545f77132b8feb4b3be4f03b1323e89d30e3440897ca04c96a955e033"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/energy_5jobs_H13_P25_veloxq_result.json",
+      "bytes": 660031,
+      "sha256": "6ca72efcab1316bcba73f333e0f8ef94bc80a80c1d39848a0ff459ac00197d9f"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/official_3jobs_H8_Gantt.png",
+      "bytes": 35253,
+      "sha256": "fa0d0418cf650d296f066efe3fe70c345cd639e0e036c760c34a9c2478bcb173"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/official_3jobs_H8_input.json",
+      "bytes": 185,
+      "sha256": "3f70f5bb2aa969dfe2fc81b0e2ff15021e9277f4a0dac34e7da43b31053e4a3c"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/official_3jobs_H8_model.json",
+      "bytes": 14749,
+      "sha256": "4e836f2208404111b27f87e40c3446cf2e209702fd1e0b96d2923649fe41ad6c"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/official_3jobs_H8_reference.json",
+      "bytes": 88,
+      "sha256": "85a4d2954fc3dc9e6c51fcc37f65632ad32cd7388281849c9a76f57ccf75c7f9"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/official_3jobs_H8_schedule.csv",
+      "bytes": 103,
+      "sha256": "a0b0eba17f8c3d88a03529f56aca71b92f054e7c313181ad4d1ea6b351eb9ed2"
+    },
+    {
+      "path": "evidence/veloxq_initial_campaign/official_3jobs_H8_veloxq_result.json",
+      "bytes": 96931,
+      "sha256": "d947cdb720bbd700d1f141a508644562222da5b160d45716709351f70c4aa341"
+    },
+    {
+      "path": "notebooks/01_LIVE_Seven_Stage_Demo.ipynb",
+      "bytes": 59742,
+      "sha256": "6e1b7393921a44cc4c4fdff91e9584b80b9007fac1179f843dad5e06df9ad08a"
+    },
+    {
+      "path": "notebooks/02_PRESENT_Seven_Stage_Recorded_Results.ipynb",
+      "bytes": 735546,
+      "sha256": "15999cfdf1a2e8ea28674d76079ffcfde1231cafe445613c4d0217234dab060e"
+    },
+    {
+      "path": "notebooks/03_Original_Baselines_Energy_Reference.ipynb",
+      "bytes": 69119,
+      "sha256": "002f7de9734725e4b960f13747b83e6f5841c7f181220fd629f54f8d54abfe6d"
+    },
+    {
+      "path": "notebooks/04_Stage_V_Robustness_Scaling.ipynb",
+      "bytes": 30186,
+      "sha256": "1056f5bc9f81705534e2f7701541aae5f0472213d1f9f78a3e42b5df9089e4f1"
+    },
+    {
+      "path": "notebooks/05_Stage_VI_Adaptive_Horizon.ipynb",
+      "bytes": 24906,
+      "sha256": "58151f8420a0e66c03639c9ed24781bef98dc9d6c1f753c9c758a3b1c80ff734"
+    },
+    {
+      "path": "notebooks/06_Standalone_VeloxQ_Secure_Benchmark.ipynb",
+      "bytes": 38188,
+      "sha256": "f2bd88eb69eaa99ae13217ccbfa25f6896091d4a64618f0948decc6f4904d0b6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 239,
+      "sha256": "3f7074b881e2461c426267bc010626342cf7fd53922b7d16e6f324afad953ac8"
+    },
+    {
+      "path": "schedule_2x2.json",
+      "bytes": 474,
+      "sha256": "7c46a2e113bc8bf5a87325ded0b2d2243025fecb844220488834e0053d52a1b6"
+    },
+    {
+      "path": "schedule_3x3.json",
+      "bytes": 917,
+      "sha256": "f1b17eafcdb80febc6b7df0c310a52f3111ad6286450e518c44597ffa33ed878"
+    },
+    {
+      "path": "scripts/verify_submission.py",
+      "bytes": 4703,
+      "sha256": "863d08c15f3bc7bac2f55a6526e3cf0f95d6051615f1ac397dca806326626f37"
+    },
+    {
+      "path": "src/stage_v_robustness_scaling.py",
+      "bytes": 22062,
+      "sha256": "4571c7f16ed2eaf89fc55d153cebaa55ba28ee3ab04b05fc24d0758a0d852abc"
+    },
+    {
+      "path": "src/stage_vi_adaptive_horizon.py",
+      "bytes": 19162,
+      "sha256": "2ebb22e83592d0defcf9033a4ca65b9fb97bcc673ad05d747b8a785bc8992010"
+    },
+    {
+      "path": "src/veloxq_secure_benchmark.py",
+      "bytes": 27051,
+      "sha256": "6854681e18655466fa24810e12280c32799f238c91c5cecbbf668c436cc4cbc3"
+    }
+  ]
+}

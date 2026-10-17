@@ -1,0 +1,1605 @@
+{
+  "fixed_ref": 15.536,
+  "fixed_ref_certified": true,
+  "full_ref_certified": true,
+  "full_weighted_reference": 14.5808,
+  "horizon": 11,
+  "makespan_certified": true,
+  "model_size": {
+    "quadratic_interactions": 536,
+    "variables": 76
+  },
+  "n_jobs": 4,
+  "trials": [
+    {
+      "best": {
+        "energy": 4.535999999999376,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999999376,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 60.0,
+        "penalty": 5,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 5,
+      "reads": 150,
+      "runtime_s": 0.7519,
+      "seed": 101,
+      "sweeps": 1000,
+      "valid_fraction": 0.17333333333333334,
+      "valid_shots": 26
+    },
+    {
+      "best": {
+        "energy": 4.535999999999376,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 3,
+            "job": "Z1",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 6,
+            "job": "Z4",
+            "machine": "T",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999999376,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 60.0,
+        "penalty": 5,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 5,
+      "reads": 150,
+      "runtime_s": 0.8102,
+      "seed": 202,
+      "sweeps": 1000,
+      "valid_fraction": 0.15333333333333332,
+      "valid_shots": 23
+    },
+    {
+      "best": {
+        "energy": 4.535999999999376,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 3,
+            "job": "Z1",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 6,
+            "job": "Z4",
+            "machine": "T",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999999376,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 60.0,
+        "penalty": 5,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 5,
+      "reads": 150,
+      "runtime_s": 0.7348,
+      "seed": 303,
+      "sweeps": 1000,
+      "valid_fraction": 0.17333333333333334,
+      "valid_shots": 26
+    },
+    {
+      "best": {
+        "energy": 4.535999999999376,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999999376,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 60.0,
+        "penalty": 5,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 5,
+      "reads": 150,
+      "runtime_s": 0.7901,
+      "seed": 404,
+      "sweeps": 1000,
+      "valid_fraction": 0.18,
+      "valid_shots": 27
+    },
+    {
+      "best": {
+        "energy": 4.535999999999376,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 3,
+            "job": "Z1",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z4",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999999376,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 60.0,
+        "penalty": 5,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 5,
+      "reads": 150,
+      "runtime_s": 0.7483,
+      "seed": 505,
+      "sweeps": 1000,
+      "valid_fraction": 0.14,
+      "valid_shots": 21
+    },
+    {
+      "best": {
+        "energy": 4.535999999998239,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z1",
+            "machine": "T",
+            "start": 2
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999998239,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 300.0,
+        "penalty": 25,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 25,
+      "reads": 150,
+      "runtime_s": 0.417,
+      "seed": 101,
+      "sweeps": 1000,
+      "valid_fraction": 0.36,
+      "valid_shots": 54
+    },
+    {
+      "best": {
+        "energy": 4.535999999998239,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z1",
+            "machine": "T",
+            "start": 2
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999998239,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 300.0,
+        "penalty": 25,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 25,
+      "reads": 150,
+      "runtime_s": 0.419,
+      "seed": 202,
+      "sweeps": 1000,
+      "valid_fraction": 0.44666666666666666,
+      "valid_shots": 67
+    },
+    {
+      "best": {
+        "energy": 4.535999999998239,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999998239,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 300.0,
+        "penalty": 25,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 25,
+      "reads": 150,
+      "runtime_s": 0.409,
+      "seed": 303,
+      "sweeps": 1000,
+      "valid_fraction": 0.36,
+      "valid_shots": 54
+    },
+    {
+      "best": {
+        "energy": 4.535999999998239,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999998239,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 300.0,
+        "penalty": 25,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 25,
+      "reads": 150,
+      "runtime_s": 0.4162,
+      "seed": 404,
+      "sweeps": 1000,
+      "valid_fraction": 0.3933333333333333,
+      "valid_shots": 59
+    },
+    {
+      "best": {
+        "energy": 4.535999999998239,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.535999999998239,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 300.0,
+        "penalty": 25,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 25,
+      "reads": 150,
+      "runtime_s": 0.4056,
+      "seed": 505,
+      "sweeps": 1000,
+      "valid_fraction": 0.3933333333333333,
+      "valid_shots": 59
+    },
+    {
+      "best": {
+        "energy": 4.53599999999642,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z2",
+            "machine": "S",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.53599999999642,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 1200.0,
+        "penalty": 100,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 100,
+      "reads": 150,
+      "runtime_s": 0.4342,
+      "seed": 101,
+      "sweeps": 1000,
+      "valid_fraction": 0.54,
+      "valid_shots": 81
+    },
+    {
+      "best": {
+        "energy": 4.53599999999642,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z1",
+            "machine": "T",
+            "start": 2
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.53599999999642,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 1200.0,
+        "penalty": 100,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 100,
+      "reads": 150,
+      "runtime_s": 0.408,
+      "seed": 202,
+      "sweeps": 1000,
+      "valid_fraction": 0.6666666666666666,
+      "valid_shots": 100
+    },
+    {
+      "best": {
+        "energy": 4.53599999999642,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z2",
+            "machine": "S",
+            "start": 4
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.53599999999642,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 1200.0,
+        "penalty": 100,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 100,
+      "reads": 150,
+      "runtime_s": 0.4298,
+      "seed": 303,
+      "sweeps": 1000,
+      "valid_fraction": 0.5933333333333334,
+      "valid_shots": 89
+    },
+    {
+      "best": {
+        "energy": 4.53599999999642,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z2",
+            "machine": "S",
+            "start": 3
+          },
+          {
+            "end": 5,
+            "job": "Z1",
+            "machine": "T",
+            "start": 3
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.53599999999642,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 1200.0,
+        "penalty": 100,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 100,
+      "reads": 150,
+      "runtime_s": 0.3996,
+      "seed": 404,
+      "sweeps": 1000,
+      "valid_fraction": 0.5866666666666667,
+      "valid_shots": 88
+    },
+    {
+      "best": {
+        "energy": 4.53599999999642,
+        "metrics": {
+          "electricity_cents": 2680,
+          "electricity_usd": 26.8,
+          "makespan": 11,
+          "objective": 15.536,
+          "valid": true,
+          "weighted_tardiness": 2
+        },
+        "objective": 15.536,
+        "schedule": [
+          {
+            "end": 1,
+            "job": "Z2",
+            "machine": "T",
+            "start": 0
+          },
+          {
+            "end": 3,
+            "job": "Z2",
+            "machine": "F",
+            "start": 1
+          },
+          {
+            "end": 2,
+            "job": "Z4",
+            "machine": "T",
+            "start": 1
+          },
+          {
+            "end": 4,
+            "job": "Z1",
+            "machine": "T",
+            "start": 2
+          },
+          {
+            "end": 4,
+            "job": "Z2",
+            "machine": "S",
+            "start": 3
+          },
+          {
+            "end": 6,
+            "job": "Z1",
+            "machine": "F",
+            "start": 5
+          },
+          {
+            "end": 8,
+            "job": "Z4",
+            "machine": "F",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z1",
+            "machine": "S",
+            "start": 6
+          },
+          {
+            "end": 8,
+            "job": "Z3",
+            "machine": "T",
+            "start": 6
+          },
+          {
+            "end": 10,
+            "job": "Z3",
+            "machine": "F",
+            "start": 8
+          },
+          {
+            "end": 10,
+            "job": "Z4",
+            "machine": "S",
+            "start": 8
+          },
+          {
+            "end": 11,
+            "job": "Z3",
+            "machine": "S",
+            "start": 10
+          }
+        ]
+      },
+      "fixed_horizon_gap": 0.0,
+      "lowest_raw_energy": 4.53599999999642,
+      "matches_fixed_horizon_optimum": true,
+      "model": {
+        "couplers": 536,
+        "horizon": 11,
+        "offset": 1200.0,
+        "penalty": 100,
+        "vars": 76
+      },
+      "n_jobs": 4,
+      "penalty": 100,
+      "reads": 150,
+      "runtime_s": 0.427,
+      "seed": 505,
+      "sweeps": 1000,
+      "valid_fraction": 0.64,
+      "valid_shots": 96
+    }
+  ]
+}

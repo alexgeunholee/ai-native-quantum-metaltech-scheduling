@@ -1,0 +1,5 @@
+benchmark,binary_variables,reference_business_objective,veloxq_best_business_objective,veloxq_feasible_fraction,veloxq_optimum_match
+official_3jobs_H8,39,8.0,8.0,0.8671875,True
+energy_3jobs_H9_P25,40,11.4456,11.4456,0.796875,True
+energy_4jobs_H12_P25,88,14.5808,14.5808,0.3710938,True
+energy_5jobs_H13_P25,128,15.7132,15.7388,0.2070312,False

@@ -1,0 +1,770 @@
+{
+  "team": "AI-Native Quantum",
+  "mode": "live cell-by-cell demonstration",
+  "archive_sha256": "2be1e0aad299d77128c6a65bcc25f8a3572bc267382ce58299cb8788041efa9d",
+  "created_utc": "20261017T202305Z",
+  "new_results": {
+    "qaoa_A": {
+      "method": "fresh Qiskit Aer QAOA sampling; archived p=3 angles",
+      "shots": 4096,
+      "optimal_shots": 141,
+      "optimal_fraction": 0.034423828125,
+      "elapsed_seconds": 0.223,
+      "historic_optimal_shots": 142,
+      "best_feasible": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 3,
+            "end": 4
+          }
+        ],
+        "makespan": 4,
+        "objective": 4.0,
+        "electricity_usd": null
+      }
+    },
+    "neal_official_3jobs_H8": {
+      "method": "fresh neal simulated annealing",
+      "model": "official_3jobs_H8",
+      "reads": 1200,
+      "sweeps": 1600,
+      "seed": 20261017,
+      "runtime_seconds": 4.777,
+      "valid_samples": 1138,
+      "total_samples": 1200,
+      "valid_fraction": 0.9483333333333334,
+      "lowest_raw_qubo_energy": 0.0,
+      "best": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z3",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z3",
+            "machine": "F",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z2",
+            "machine": "S",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "job": "Z3",
+            "machine": "S",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "job": "Z1",
+            "machine": "S",
+            "start": 6,
+            "end": 8
+          }
+        ],
+        "makespan": 8,
+        "objective": 8.0,
+        "electricity_usd": null,
+        "qubo_energy": 0.0
+      },
+      "historic_certified_reference": 8.0,
+      "matched_reference": true
+    },
+    "neal_energy_3jobs_H9_P25": {
+      "method": "fresh neal simulated annealing",
+      "model": "energy_3jobs_H9_P25",
+      "reads": 1200,
+      "sweeps": 1600,
+      "seed": 20261018,
+      "runtime_seconds": 3.316,
+      "valid_samples": 938,
+      "total_samples": 1200,
+      "valid_fraction": 0.7816666666666666,
+      "lowest_raw_qubo_energy": 2.445600000000013,
+      "best": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z2",
+            "machine": "S",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "job": "Z3",
+            "machine": "T",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "job": "Z3",
+            "machine": "F",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z1",
+            "machine": "S",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z3",
+            "machine": "S",
+            "start": 8,
+            "end": 9
+          }
+        ],
+        "makespan": 9,
+        "weighted_tardiness": 1,
+        "electricity_usd": 22.28,
+        "objective": 11.4456,
+        "qubo_energy": 2.445600000000013
+      },
+      "historic_certified_reference": 11.4456,
+      "matched_reference": true
+    },
+    "penalty_sweep": [
+      {
+        "jobs": 3,
+        "penalty": 5,
+        "QUBO_variables": 40,
+        "couplings": 180,
+        "feasible_pct": 67.78,
+        "best_live_objective": 11.4456,
+        "elapsed_s": 0.081
+      },
+      {
+        "jobs": 3,
+        "penalty": 25,
+        "QUBO_variables": 40,
+        "couplings": 180,
+        "feasible_pct": 82.22,
+        "best_live_objective": 11.4456,
+        "elapsed_s": 0.081
+      },
+      {
+        "jobs": 3,
+        "penalty": 100,
+        "QUBO_variables": 40,
+        "couplings": 180,
+        "feasible_pct": 70.0,
+        "best_live_objective": 11.4456,
+        "elapsed_s": 0.086
+      },
+      {
+        "jobs": 4,
+        "penalty": 5,
+        "QUBO_variables": 76,
+        "couplings": 536,
+        "feasible_pct": 13.33,
+        "best_live_objective": 15.536,
+        "elapsed_s": 0.169
+      },
+      {
+        "jobs": 4,
+        "penalty": 25,
+        "QUBO_variables": 76,
+        "couplings": 536,
+        "feasible_pct": 37.78,
+        "best_live_objective": 15.536,
+        "elapsed_s": 0.168
+      },
+      {
+        "jobs": 4,
+        "penalty": 100,
+        "QUBO_variables": 76,
+        "couplings": 536,
+        "feasible_pct": 52.22,
+        "best_live_objective": 15.536,
+        "elapsed_s": 0.2
+      },
+      {
+        "jobs": 5,
+        "penalty": 5,
+        "QUBO_variables": 113,
+        "couplings": 1010,
+        "feasible_pct": 3.33,
+        "best_live_objective": 16.694,
+        "elapsed_s": 0.306
+      },
+      {
+        "jobs": 5,
+        "penalty": 25,
+        "QUBO_variables": 113,
+        "couplings": 1010,
+        "feasible_pct": 24.44,
+        "best_live_objective": 16.694,
+        "elapsed_s": 0.346
+      },
+      {
+        "jobs": 5,
+        "penalty": 100,
+        "QUBO_variables": 113,
+        "couplings": 1010,
+        "feasible_pct": 37.78,
+        "best_live_objective": 16.6684,
+        "elapsed_s": 0.321
+      }
+    ],
+    "qaoa_depth": [
+      {
+        "QAOA depth": 1,
+        "fresh_shots": 1024,
+        "fresh_optimal_shots": 34,
+        "fresh_optimal_pct": 3.32,
+        "historic_best_fit_reported_success": true,
+        "runtime_seconds": 0.161
+      },
+      {
+        "QAOA depth": 2,
+        "fresh_shots": 1024,
+        "fresh_optimal_shots": 8,
+        "fresh_optimal_pct": 0.78,
+        "historic_best_fit_reported_success": true,
+        "runtime_seconds": 0.193
+      },
+      {
+        "QAOA depth": 3,
+        "fresh_shots": 1024,
+        "fresh_optimal_shots": 95,
+        "fresh_optimal_pct": 9.28,
+        "historic_best_fit_reported_success": false,
+        "runtime_seconds": 0.183
+      }
+    ],
+    "veloxq_authorized": true,
+    "veloxq_official_3jobs_H8": {
+      "status": "SUCCESS",
+      "model": "official_3jobs_H8",
+      "backend": "VeloxQ GPU quantum-inspired",
+      "reads": 256,
+      "feasible": 229,
+      "feasible_fraction": 0.89453125,
+      "wall_seconds": 3.625,
+      "best": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 2,
+            "end": 4
+          },
+          {
+            "job": "Z3",
+            "machine": "T",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "job": "Z2",
+            "machine": "S",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "job": "Z3",
+            "machine": "F",
+            "start": 5,
+            "end": 7
+          },
+          {
+            "job": "Z1",
+            "machine": "S",
+            "start": 5,
+            "end": 7
+          },
+          {
+            "job": "Z3",
+            "machine": "S",
+            "start": 7,
+            "end": 8
+          }
+        ],
+        "makespan": 8,
+        "objective": 8.0,
+        "electricity_usd": null,
+        "qubo_energy": 0.0
+      },
+      "reference_objective": 8.0,
+      "match_reference": true
+    },
+    "veloxq_energy_3jobs_H9_P25": {
+      "status": "SUCCESS",
+      "model": "energy_3jobs_H9_P25",
+      "backend": "VeloxQ GPU quantum-inspired",
+      "reads": 256,
+      "feasible": 211,
+      "feasible_fraction": 0.82421875,
+      "wall_seconds": 2.196,
+      "best": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z2",
+            "machine": "S",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "job": "Z3",
+            "machine": "T",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "job": "Z3",
+            "machine": "F",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z1",
+            "machine": "S",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z3",
+            "machine": "S",
+            "start": 8,
+            "end": 9
+          }
+        ],
+        "makespan": 9,
+        "weighted_tardiness": 1,
+        "electricity_usd": 22.28,
+        "objective": 11.4456,
+        "qubo_energy": 2.445587158203125
+      },
+      "reference_objective": 11.4456,
+      "match_reference": true
+    },
+    "veloxq_energy_4jobs_H12_P25": {
+      "status": "SUCCESS",
+      "model": "energy_4jobs_H12_P25",
+      "backend": "VeloxQ GPU quantum-inspired",
+      "reads": 256,
+      "feasible": 94,
+      "feasible_fraction": 0.3671875,
+      "wall_seconds": 2.289,
+      "best": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z3",
+            "machine": "T",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z2",
+            "machine": "S",
+            "start": 4,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "job": "Z3",
+            "machine": "F",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z1",
+            "machine": "S",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z4",
+            "machine": "T",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "job": "Z4",
+            "machine": "F",
+            "start": 8,
+            "end": 10
+          },
+          {
+            "job": "Z3",
+            "machine": "S",
+            "start": 9,
+            "end": 10
+          },
+          {
+            "job": "Z4",
+            "machine": "S",
+            "start": 10,
+            "end": 12
+          }
+        ],
+        "makespan": 12,
+        "weighted_tardiness": 1,
+        "electricity_usd": 29.04,
+        "objective": 14.5808,
+        "qubo_energy": 2.580780029296875
+      },
+      "reference_objective": 14.5808,
+      "match_reference": true
+    },
+    "veloxq_energy_5jobs_H13_P25": {
+      "status": "SUCCESS",
+      "model": "energy_5jobs_H13_P25",
+      "backend": "VeloxQ GPU quantum-inspired",
+      "reads": 256,
+      "feasible": 57,
+      "feasible_fraction": 0.22265625,
+      "wall_seconds": 3.167,
+      "best": {
+        "feasible": true,
+        "issues": [],
+        "schedule": [
+          {
+            "job": "Z2",
+            "machine": "T",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "job": "Z2",
+            "machine": "F",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z3",
+            "machine": "T",
+            "start": 1,
+            "end": 3
+          },
+          {
+            "job": "Z2",
+            "machine": "S",
+            "start": 3,
+            "end": 4
+          },
+          {
+            "job": "Z1",
+            "machine": "T",
+            "start": 3,
+            "end": 5
+          },
+          {
+            "job": "Z1",
+            "machine": "F",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "job": "Z3",
+            "machine": "F",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z1",
+            "machine": "S",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "job": "Z4",
+            "machine": "T",
+            "start": 6,
+            "end": 7
+          },
+          {
+            "job": "Z4",
+            "machine": "F",
+            "start": 8,
+            "end": 10
+          },
+          {
+            "job": "Z5",
+            "machine": "T",
+            "start": 8,
+            "end": 10
+          },
+          {
+            "job": "Z3",
+            "machine": "S",
+            "start": 9,
+            "end": 10
+          },
+          {
+            "job": "Z5",
+            "machine": "F",
+            "start": 10,
+            "end": 11
+          },
+          {
+            "job": "Z4",
+            "machine": "S",
+            "start": 10,
+            "end": 12
+          },
+          {
+            "job": "Z5",
+            "machine": "S",
+            "start": 12,
+            "end": 13
+          }
+        ],
+        "makespan": 13,
+        "weighted_tardiness": 1,
+        "electricity_usd": 35.66,
+        "objective": 15.7132,
+        "qubo_energy": 2.713165283203125
+      },
+      "reference_objective": 15.7132,
+      "match_reference": true
+    },
+    "adaptive_horizon": [
+      {
+        "jobs": 4,
+        "exact_H": 11,
+        "variables": 76,
+        "valid_samples": 96,
+        "fresh_best_objective": 15.536,
+        "archived_CP_SAT_optimum": 15.536,
+        "matched": true,
+        "seconds": 0.963
+      },
+      {
+        "jobs": 4,
+        "exact_H": 12,
+        "variables": 88,
+        "valid_samples": 185,
+        "fresh_best_objective": 14.5808,
+        "archived_CP_SAT_optimum": 14.5808,
+        "matched": true,
+        "seconds": 1.748
+      },
+      {
+        "jobs": 5,
+        "exact_H": 12,
+        "variables": 113,
+        "valid_samples": 65,
+        "fresh_best_objective": 16.6684,
+        "archived_CP_SAT_optimum": 16.6684,
+        "matched": true,
+        "seconds": 1.849
+      },
+      {
+        "jobs": 5,
+        "exact_H": 13,
+        "variables": 128,
+        "valid_samples": 150,
+        "fresh_best_objective": 15.7132,
+        "archived_CP_SAT_optimum": 15.7132,
+        "matched": true,
+        "seconds": 1.707
+      }
+    ]
+  },
+  "historical_velox_reference": [
+    {
+      "benchmark": "official_3jobs_H8",
+      "binary_variables": 39,
+      "quadratic_interactions": 181,
+      "reference_business_objective": 8,
+      "reference_makespan": 8,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 8,
+      "veloxq_best_makespan": 8,
+      "veloxq_feasible_fraction": 0.8671875,
+      "veloxq_optimum_match": true,
+      "veloxq_wall_seconds": 5.091
+    },
+    {
+      "benchmark": "energy_3jobs_H9_P25",
+      "binary_variables": 40,
+      "quadratic_interactions": 180,
+      "reference_business_objective": 11.4456,
+      "reference_makespan": 9,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 11.4456,
+      "veloxq_best_makespan": 9,
+      "veloxq_feasible_fraction": 0.796875,
+      "veloxq_optimum_match": true,
+      "veloxq_wall_seconds": 2.754
+    },
+    {
+      "benchmark": "energy_4jobs_H12_P25",
+      "binary_variables": 88,
+      "quadratic_interactions": 698,
+      "reference_business_objective": 14.5808,
+      "reference_makespan": 12,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 14.5808,
+      "veloxq_best_makespan": 12,
+      "veloxq_feasible_fraction": 0.3710938,
+      "veloxq_optimum_match": true,
+      "veloxq_wall_seconds": 3.295
+    },
+    {
+      "benchmark": "energy_5jobs_H13_P25",
+      "binary_variables": 128,
+      "quadratic_interactions": 1256,
+      "reference_business_objective": 15.7132,
+      "reference_makespan": 13,
+      "run_status": "SUCCESS",
+      "veloxq_best_business_objective": 15.7388,
+      "veloxq_best_makespan": 13,
+      "veloxq_feasible_fraction": 0.2070312,
+      "veloxq_optimum_match": false,
+      "veloxq_wall_seconds": 3.03
+    }
+  ],
+  "scientific_caveat": "Qiskit Aer=simulation; VeloxQ=GPU quantum-inspired; no physical QPU claim."
+}

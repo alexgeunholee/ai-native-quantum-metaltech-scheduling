@@ -1,0 +1,7 @@
+{
+  "couplers": 180,
+  "horizon": 9,
+  "offset": 225.0,
+  "penalty": 25,
+  "vars": 40
+}

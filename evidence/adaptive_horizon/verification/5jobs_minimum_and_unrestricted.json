@@ -1,0 +1,218 @@
+{
+  "minimum_makespan": {
+    "best_bound": 12.0,
+    "certified": true,
+    "metrics": {
+      "electricity_cents": 3694,
+      "electricity_usd": 36.94,
+      "makespan_hours": 12,
+      "objective": 50.7388,
+      "valid": true,
+      "weighted_tardiness": 19
+    },
+    "objective": 12.0,
+    "requested_exact_horizon": null,
+    "schedule": [
+      {
+        "end": 1,
+        "job": "Z4",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z4",
+        "machine": "F",
+        "start": 1
+      },
+      {
+        "end": 3,
+        "job": "Z3",
+        "machine": "T",
+        "start": 1
+      },
+      {
+        "end": 5,
+        "job": "Z4",
+        "machine": "S",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z1",
+        "machine": "T",
+        "start": 3
+      },
+      {
+        "end": 6,
+        "job": "Z1",
+        "machine": "F",
+        "start": 5
+      },
+      {
+        "end": 6,
+        "job": "Z2",
+        "machine": "T",
+        "start": 5
+      },
+      {
+        "end": 8,
+        "job": "Z3",
+        "machine": "F",
+        "start": 6
+      },
+      {
+        "end": 8,
+        "job": "Z1",
+        "machine": "S",
+        "start": 6
+      },
+      {
+        "end": 8,
+        "job": "Z5",
+        "machine": "T",
+        "start": 6
+      },
+      {
+        "end": 10,
+        "job": "Z2",
+        "machine": "F",
+        "start": 8
+      },
+      {
+        "end": 9,
+        "job": "Z3",
+        "machine": "S",
+        "start": 8
+      },
+      {
+        "end": 11,
+        "job": "Z5",
+        "machine": "F",
+        "start": 10
+      },
+      {
+        "end": 11,
+        "job": "Z2",
+        "machine": "S",
+        "start": 10
+      },
+      {
+        "end": 12,
+        "job": "Z5",
+        "machine": "S",
+        "start": 11
+      }
+    ],
+    "seconds": 0.0035,
+    "status": "OPTIMAL"
+  },
+  "unrestricted_weighted": {
+    "best_bound": 78566.0,
+    "certified": true,
+    "metrics": {
+      "electricity_cents": 3566,
+      "electricity_usd": 35.66,
+      "makespan_hours": 13,
+      "objective": 15.7132,
+      "valid": true,
+      "weighted_tardiness": 1
+    },
+    "objective": 15.7132,
+    "requested_exact_horizon": null,
+    "schedule": [
+      {
+        "end": 1,
+        "job": "Z2",
+        "machine": "T",
+        "start": 0
+      },
+      {
+        "end": 3,
+        "job": "Z2",
+        "machine": "F",
+        "start": 1
+      },
+      {
+        "end": 3,
+        "job": "Z1",
+        "machine": "T",
+        "start": 1
+      },
+      {
+        "end": 4,
+        "job": "Z2",
+        "machine": "S",
+        "start": 3
+      },
+      {
+        "end": 5,
+        "job": "Z3",
+        "machine": "T",
+        "start": 3
+      },
+      {
+        "end": 6,
+        "job": "Z1",
+        "machine": "F",
+        "start": 5
+      },
+      {
+        "end": 8,
+        "job": "Z3",
+        "machine": "F",
+        "start": 6
+      },
+      {
+        "end": 8,
+        "job": "Z1",
+        "machine": "S",
+        "start": 6
+      },
+      {
+        "end": 7,
+        "job": "Z4",
+        "machine": "T",
+        "start": 6
+      },
+      {
+        "end": 9,
+        "job": "Z5",
+        "machine": "T",
+        "start": 7
+      },
+      {
+        "end": 10,
+        "job": "Z4",
+        "machine": "F",
+        "start": 8
+      },
+      {
+        "end": 9,
+        "job": "Z3",
+        "machine": "S",
+        "start": 8
+      },
+      {
+        "end": 11,
+        "job": "Z5",
+        "machine": "F",
+        "start": 10
+      },
+      {
+        "end": 12,
+        "job": "Z4",
+        "machine": "S",
+        "start": 10
+      },
+      {
+        "end": 13,
+        "job": "Z5",
+        "machine": "S",
+        "start": 12
+      }
+    ],
+    "seconds": 0.1865,
+    "status": "OPTIMAL"
+  }
+}

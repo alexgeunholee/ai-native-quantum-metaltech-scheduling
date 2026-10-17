@@ -1,0 +1,78 @@
+{
+  "objective": 11.0,
+  "objective_recomputed": {
+    "F": 11,
+    "makespan": 9,
+    "tardiness_by_job": {
+      "Z1": 1,
+      "Z2": 0,
+      "Z3": 0
+    },
+    "weighted_tardiness": 1
+  },
+  "optimal": true,
+  "runtime_seconds": 0.004258374000016829,
+  "schedule": [
+    {
+      "end": 1,
+      "job": "Z2",
+      "machine": "T",
+      "start": 0
+    },
+    {
+      "end": 3,
+      "job": "Z2",
+      "machine": "F",
+      "start": 1
+    },
+    {
+      "end": 3,
+      "job": "Z3",
+      "machine": "T",
+      "start": 1
+    },
+    {
+      "end": 4,
+      "job": "Z2",
+      "machine": "S",
+      "start": 3
+    },
+    {
+      "end": 5,
+      "job": "Z1",
+      "machine": "T",
+      "start": 3
+    },
+    {
+      "end": 6,
+      "job": "Z1",
+      "machine": "F",
+      "start": 5
+    },
+    {
+      "end": 8,
+      "job": "Z3",
+      "machine": "F",
+      "start": 6
+    },
+    {
+      "end": 8,
+      "job": "Z1",
+      "machine": "S",
+      "start": 6
+    },
+    {
+      "end": 9,
+      "job": "Z3",
+      "machine": "S",
+      "start": 8
+    }
+  ],
+  "status": "OPTIMAL",
+  "validation": {
+    "issues": [],
+    "makespan": 9,
+    "operations_checked": 9,
+    "valid": true
+  }
+}

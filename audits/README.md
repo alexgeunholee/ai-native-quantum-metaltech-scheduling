@@ -1,0 +1,2 @@
+# Scope of post-execution audits
+The audit documents and recorded `OPTIMAL` statuses refer to completed Google Colab runs. These archived records do not amount to independently re-running the computational solvers from this repository clone. Baseline schedule feasibility is checkable with `python scripts/verify_submission.py` using included data. VeloxQ is a quantum-inspired GPU solver; Qiskit Aer is a simulator. No physical QPU was used and no quantum advantage is claimed.

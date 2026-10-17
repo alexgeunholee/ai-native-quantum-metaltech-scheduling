@@ -1,0 +1,7 @@
+{
+  "A_qaoa_optimal": true,
+  "B_qubo_optimal": true,
+  "Stage2Energy_global_optimal": true,
+  "Stage2_global_optimal": true,
+  "classical_certificates": true
+}
