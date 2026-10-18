@@ -77,6 +77,6 @@ The original baseline evidence's internal historical README predates VeloxQ runs
 
 ChatGPT was used as **Agentic AI Project Coordinator (PC)** for experiment design, implementation drafts, debugging, analysis and documentation. The team Human Expert / PM scoped and directed tests and is responsible for factual acceptance, submission, and explanation. **Google Colab, Qiskit Aer, `neal`, OR-Tools CP-SAT and VeloxQ** performed actual computations as documented. This is a synthesis of established methods, not a claim of a newly invented optimizer. All project code and authored documentation are provided under the [MIT license](LICENSE); external libraries retain their own licenses. See [`AI_USAGE.md`](AI_USAGE.md).
 
-### 7. Submission and video status
+### 7. Demo Video Link
 
-**Human team action still required:** Create a **public GitHub repository**, confirm default branch and files, replace `VIDEO_URL_PENDING` with the **actual** ≤5-minute demo video link, then submit the real GitHub/video URLs through the organizer's Google Form before **2026-10-18 15:00 UTC+2 (09:00 EDT)**. The live jury presentation is separate. See [`SUBMISSION_CHECKLIST.md`](SUBMISSION_CHECKLIST.md).
+**Demo Video:** [Watch our AI-Native Quantum Manufacturing Scheduling Demonstration](https://www.youtube.com/watch?v=qlwQ1HCuxsM)
