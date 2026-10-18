@@ -78,6 +78,14 @@ x[o,t] + x[p,u] <= 1.
 
 **Planned maintenance (synthetic extension only).** Milling (F) is unavailable over `[3,5)`. Candidate milling starts whose processing intervals overlap downtime are removed. This is a **hard outage**, not a monetary penalty for using the machine.
 
+### 2.2A Feasibility conditions and verification
+
+A manufacturing schedule is **feasible** if each required operation selects exactly one integer start time from its admissible time window; every job completes operations in its prescribed technological order; no two operations using the same machine overlap; and every operation finishes by the selected horizon `H`. The schedule is nonpreemptive: an operation runs continuously for its assigned duration once started. For the synthetic industrial extension, no milling operation may overlap the planned maintenance interval `[3,5)`.
+
+For the **adaptive exact-horizon** models, feasibility additionally requires the actual makespan to equal `H`, rather than merely satisfy `C_max <= H`. This is enforced by the documented terminal-finish anchor together with the usual scheduling constraints.
+
+After a solver returns binary assignments, we reconstruct operation start and finish times and check the original scheduling requirements independently of the solver's reported energy. A zero or low QUBO energy by itself is not sufficient proof of feasibility if a model or penalty scale is incorrect. The official benchmark optima of **4 hours (2×2)** and **8 hours (3×3)**, and the reported finite synthetic benchmark objectives, are supported by **previously recorded OR-Tools CP-SAT `OPTIMAL` results**; the live demo compares new candidate schedules against these historical references and does not rerun CP-SAT.
+
 ### 2.3 Convert hard constraints into a QUBO/BQM
 
 A Quadratic Unconstrained Binary Optimization energy assigns penalties to infeasible bit configurations. Define:
@@ -167,6 +175,26 @@ energy_cost[o,t] = p_m * sum_{h=t}^{t+d_o-1} r(h)  [USD].
 ```
 
 Because the charge is fully determined once start bit `x[o,t]` is chosen, we can include `0.02*energy_cost[o,t]` **linearly** in the QUBO. Similarly, for the final operation of job `j`, its weighted tardiness can be included linearly as `2*weight_j*max(0,t+d_o-due_j)*x[o,t]`. Thus **no new binary variables** or extra quadratic couplers are required for these costs in this implementation. The three-job H9 formulation remains **40 bits and 180 couplings**, with an offset of 250 in the stored frozen P25 BQM.
+
+### 4.3A Quantifying the cost of industrial realism
+
+The Stage 2 industrial extension was designed to incorporate additional manufacturing requirements while controlling QUBO model size. For the official three-job instance at an eight-hour horizon, the naïve time-indexed formulation contained **72 binary start-time candidates**. Applying feasible earliest- and latest-start bounds reduced this to **39 variables**, a **45.83% reduction**.
+
+For the synthetic three-job industrial extension at a nine-hour horizon, the corresponding naïve formulation contained **81 candidates**. Precedence-aware and horizon-based pruning reduced the count to **48**. The planned milling-machine outage during hours three through five (`[3,5)`) eliminated **eight additional candidates**, producing the final model of **40 binary variables and 180 quadratic interactions**.
+
+| Model and pruning step | Binary start-time candidates | Quadratic interactions in final QUBO |
+|---|---:|---:|
+| Official 3 jobs, H=8: naïve enumeration | 72 | — |
+| Official 3 jobs, H=8: feasible start-window pruning | **39** | **181** |
+| Industrial 3 jobs, H=9: naïve enumeration | 81 | — |
+| Industrial 3 jobs, H=9: precedence and horizon pruning | 48 | — |
+| Industrial 3 jobs, H=9: additionally exclude milling outage | **40** | **180** |
+
+Customer due dates, priority-weighted tardiness, and predetermined electricity tariffs were incorporated through **linear coefficients** associated with the existing operation start-time variables. Consequently, these objective terms required **no additional binary variables or quadratic interactions** in the selected formulation. This result assumes that each operation has a fixed duration and machine power demand and that the time-dependent tariffs and due dates are known before optimization.
+
+The final industrial model was evaluated using **classical simulated annealing** and **VeloxQ GPU-based quantum-inspired optimization**, with previously certified **OR-Tools CP-SAT** solutions used as references. The resulting best feasible schedule matched the certified composite objective of **11.4456**, demonstrating that additional operating considerations could be integrated without a proportional increase in QUBO model size.
+
+These variable reductions are specific to the documented fixed-horizon models. They represent **mathematical model compression**, not physical qubit savings demonstrated on quantum hardware. The number of physical qubits or quantum gates needed by a future QAOA implementation would also depend on hardware constraints, gate compilation, and circuit design; **no 40-qubit industrial QAOA circuit was executed** in this project.
 
 ### 4.4 Observed Stage IV outcomes
 
